@@ -109,7 +109,7 @@ export default function Home() {
               </p>
 
               <h2 className="h2 section-title text-center">
-                Managing you business with our{" "}
+                Managing your business with our{" "}
                 <span className="has-before"> best service</span>
               </h2>
 
