@@ -742,34 +742,51 @@ export default function Home() {
         <div className="container">
           <div className="footer-top section">
             <div className="footer-brand">
-              <p className="footer-list-title">About Brand</p>
+              <p className="footer-list-title">About Sikhathy Infotech</p>
 
               <p className="footer-text">
-                A new way to make the payments easy, reliable and 100% secure.
-                claritatem itamconse quat. Exerci tationulla
+                Sikharthy Infotech Pvt. Ltd. is a Kolkata-based company offering
+                web development, software development, website design, content
+                development, and digital marketing services.
               </p>
 
               <ul className="social-list">
                 <li>
-                  <Link to="/" className="social-link">
+                  <Link
+                    to="https://www.youtube.com/@sikharthyinfotech9023"
+                    target="_blank"
+                    className="social-link"
+                  >
                     <ion-icon name="logo-youtube"></ion-icon>
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/" className="social-link">
+                  <Link
+                    to="https://www.facebook.com/sikharthyinfotech/"
+                    target="_blank"
+                    className="social-link"
+                  >
                     <ion-icon name="logo-facebook"></ion-icon>
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/" className="social-link">
+                  <Link
+                    to="https://www.linkedin.com/company/sikharthy-infotech-pvt-ltd"
+                    target="_blank"
+                    className="social-link"
+                  >
                     <ion-icon name="logo-linkedin"></ion-icon>
                   </Link>
                 </li>
 
                 <li>
-                  <Link to="/" className="social-link">
+                  <Link
+                    to="https://www.instagram.com/sikharthyinfotech/"
+                    target="_blank"
+                    className="social-link"
+                  >
                     <ion-icon name="logo-instagram"></ion-icon>
                   </Link>
                 </li>
@@ -850,7 +867,11 @@ export default function Home() {
                         />
                       </figure>
 
-                      <Link to="/" className="card-content">
+                      <Link
+                        to="https://www.instagram.com/p/Cw4U5JZu3Wz/"
+                        target="_blank"
+                        className="card-content"
+                      >
                         <ion-icon
                           name="logo-instagram"
                           aria-hidden="true"
@@ -872,7 +893,11 @@ export default function Home() {
                         />
                       </figure>
 
-                      <Link to="/" className="card-content">
+                      <Link
+                        to="https://www.instagram.com/p/Cwjd96BBcZ4/"
+                        target="_blank"
+                        className="card-content"
+                      >
                         <ion-icon
                           name="logo-instagram"
                           aria-hidden="true"
@@ -894,7 +919,11 @@ export default function Home() {
                         />
                       </figure>
 
-                      <Link to="/" className="card-content">
+                      <Link
+                        to="https://www.instagram.com/p/Cv8fiIOPUSj/"
+                        target="_blank"
+                        className="card-content"
+                      >
                         <ion-icon
                           name="logo-instagram"
                           aria-hidden="true"
@@ -916,7 +945,11 @@ export default function Home() {
                         />
                       </figure>
 
-                      <Link to="/" className="card-content">
+                      <Link
+                        to="https://www.instagram.com/p/CtvZNKRBBmY/"
+                        target="_blank"
+                        className="card-content"
+                      >
                         <ion-icon
                           name="logo-instagram"
                           aria-hidden="true"
@@ -938,7 +971,11 @@ export default function Home() {
                         />
                       </figure>
 
-                      <Link to="/" className="card-content">
+                      <Link
+                        to="https://www.instagram.com/p/Ctsmnephs8F/"
+                        target="_blank"
+                        className="card-content"
+                      >
                         <ion-icon
                           name="logo-instagram"
                           aria-hidden="true"
@@ -960,7 +997,11 @@ export default function Home() {
                         />
                       </figure>
 
-                      <Link to="/" className="card-content">
+                      <Link
+                        to="https://www.instagram.com/p/CrsMaN2usvo/"
+                        target="_blank"
+                        className="card-content"
+                      >
                         <ion-icon
                           name="logo-instagram"
                           aria-hidden="true"
@@ -975,7 +1016,7 @@ export default function Home() {
 
           <div className="footer-bottom">
             <p className="copyright">
-              &copy; 2023 All Rights Reserved by Brand
+              &copy; 2023 All Rights Reserved by Sikharthy Infotech
             </p>
 
             <ul className="footer-bottom-list">
