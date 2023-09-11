@@ -340,7 +340,7 @@ export default function Home() {
               </p>
 
               <h2 className="h2 section-title text-center">
-                Pixology complete <span className="has-before">project</span>
+                Sikharthy complete <span className="has-before">project</span>
               </h2>
 
               <ul className="filter-list">
