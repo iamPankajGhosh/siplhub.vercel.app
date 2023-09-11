@@ -22,9 +22,9 @@ export default function Home() {
                 </h1>
 
                 <p className="hero-text">
-                  Sikharthy Infotech Pvt Ltd is a Kolkata-based company offering
-                  web development, software development, website design, content
-                  development, and digital marketing services.
+                  Sikharthy Infotech Pvt. Ltd. is a Kolkata-based company
+                  offering web development, software development, website
+                  design, content development, and digital marketing services.
                 </p>
 
                 <div className="wrapper">
