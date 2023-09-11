@@ -249,7 +249,7 @@ export default function Home() {
                 </p>
 
                 <h2 className="h2 section-title">
-                  Specialist in avoding clients of financial{" "}
+                  Specialist in avoiding clients' financial{" "}
                   <span className="has-before">challenges</span>
                 </h2>
 
