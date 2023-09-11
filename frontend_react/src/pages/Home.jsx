@@ -290,7 +290,7 @@ export default function Home() {
                       </div>
 
                       <div>
-                        <h3 className="h3 card-title">Didicated team</h3>
+                        <h3 className="h3 card-title">Dedicated team</h3>
 
                         <p className="card-text">
                           At Pixology we specialize in designing, building,

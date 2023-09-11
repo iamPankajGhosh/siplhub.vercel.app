@@ -1,5 +1,10 @@
 import React from "react";
+import { Navbar } from "../components";
 
 export default function Services() {
-  return <div>Services</div>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
