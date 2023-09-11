@@ -270,8 +270,8 @@ export default function Home() {
                         <h3 className="h3 card-title">Fast working process</h3>
 
                         <p className="card-text">
-                          At Pixology we specialize in designing, building,
-                          shipping and scaling beautiful.
+                          At Sikharthy, we pride ourselves on efficient, on-time
+                          results. Trust us for fast, reliable service.
                         </p>
                       </div>
                     </div>
@@ -293,8 +293,8 @@ export default function Home() {
                         <h3 className="h3 card-title">Dedicated team</h3>
 
                         <p className="card-text">
-                          At Pixology we specialize in designing, building,
-                          shipping and scaling beautiful.
+                          At Sikharthy, our dedicated team ensures top-notch
+                          results, every time.
                         </p>
                       </div>
                     </div>
@@ -316,8 +316,8 @@ export default function Home() {
                         <h3 className="h3 card-title">24/7 hours support</h3>
 
                         <p className="card-text">
-                          At Pixology we specialize in designing, building,
-                          shipping and scaling beautiful.
+                          At Sikharthy, we provide 24x7 hours support to meet
+                          your needs anytime, anywhere.
                         </p>
                       </div>
                     </div>
