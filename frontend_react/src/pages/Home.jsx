@@ -608,9 +608,10 @@ export default function Home() {
                       </h3>
 
                       <p className="card-text">
-                        At Pixology we specialize in designing, building,
-                        shipping and scaling beautiful.At Pixology we specialize
-                        in designing, building, shipping and scaling beautiful.
+                        Sikharthy Infotech Pvt. Ltd. is a Kolkata-based company
+                        offering web development, software development, website
+                        design, content development, and digital marketing
+                        services.
                       </p>
                     </div>
                   </div>
