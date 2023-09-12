@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Footer } from "../components";
-import { Hero } from "../containers";
+import { Hero, Service } from "../containers";
 
 export default function Services() {
   return (
@@ -10,6 +10,7 @@ export default function Services() {
       <main>
         <article>
           <Hero />
+          <Service />
         </article>
       </main>
 
