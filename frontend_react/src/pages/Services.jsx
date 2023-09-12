@@ -1,10 +1,11 @@
 import React from "react";
-import { Navbar } from "../components";
+import { Navbar, Footer } from "../components";
 
 export default function Services() {
   return (
     <>
       <Navbar />
+      <Footer />
     </>
   );
 }
