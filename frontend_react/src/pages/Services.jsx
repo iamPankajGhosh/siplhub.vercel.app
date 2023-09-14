@@ -1,10 +1,11 @@
 import React from "react";
-import { Navbar, Footer } from "../components";
+import { Preloader, Navbar, Footer } from "../components";
 import { Hero, Service } from "../containers";
 
 export default function Services() {
   return (
     <>
+      <Preloader />
       <Navbar />
 
       <main>
