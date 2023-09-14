@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 import { Preloader, Navbar, Footer } from "../components";
 import images from "../constants/images";
 import { Hero, Service } from "../containers";
@@ -13,8 +14,17 @@ export default function Home() {
 
       <main>
         <article>
-          <Hero />
+          <Hero
+            title="Building Digital, Website
+              Content and Marketing"
+            text="Sikharthy Infotech Pvt. Ltd. is a Kolkata-based company offering
+            web development, software development, website design, content
+            development, and digital marketing services."
+            heroBanner={images.heroBanner}
+          />
+  
           <Service />
+
 
           {/* #FEATURE */}
 
