@@ -304,12 +304,12 @@ body {
 }
 
 .btn-primary {
-  background-color: var(--majorelle-blue);
+  background-color: var(--persian-red);
   color: var(--white);
 }
 
 .btn-primary:is(:hover, :focus) {
-  background-color: var(--majorelle-blue);
+  background-color: var(--persian-red);
   color: var(--raisin-black-1);
 }
 
@@ -1110,7 +1110,7 @@ body {
     */
 
   .header {
-    padding-block-start: 47px;
+    padding-block-start: 30px;
   }
 
   .nav-open-btn,
@@ -1153,7 +1153,7 @@ body {
     width: 0;
     height: 4px;
     border-radius: 5px;
-    background-color: var(--majorelle-blue);
+    background-color: var(--persian-red);
     transition: var(--transition-1);
   }
 

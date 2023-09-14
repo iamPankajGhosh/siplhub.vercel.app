@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+import images from "../../constants/images";
 import "./Navbar.css";
 
 export default function Navbar() {
   /**
    * navbar links
    */
-  const brandLogo = "Sikharthy Infotech";
+  const brandLogo = images.logo;
   const navbarLink = ["home", "about", "services", "contact"];
 
   /**
@@ -54,7 +55,13 @@ export default function Navbar() {
       <header className={`header ${headerShow ? "active" : ""}`}>
         <div className="container">
           <Link to="/" className="logo">
-            {brandLogo}
+            <img
+              src={brandLogo}
+              width="180"
+              height="95"
+              loading="lazy"
+              alt="Sikharthy Infotech"
+            />
           </Link>
 
           <nav className={`navbar ${isOpen ? "active" : ""}`}>
