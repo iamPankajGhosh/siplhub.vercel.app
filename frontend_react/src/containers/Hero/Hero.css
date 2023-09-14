@@ -11,7 +11,7 @@
 \*-----------------------------------*/
 
 .hero {
-  padding-block-start: calc(var(--section-padding) + 60px);
+  padding-block-start: calc(var(--section-padding) + 60px) !important;
 }
 
 .hero .container {
@@ -42,7 +42,7 @@
 }
 
 .hero-btn:is(:hover, :focus) {
-  color: var(--majorelle-blue);
+  color: var(--persian-red);
 }
 
 .hero-btn ion-icon {
