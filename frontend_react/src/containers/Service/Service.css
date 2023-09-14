@@ -1,0 +1,88 @@
+/*-----------------------------------*\
+  #Service.css
+\*-----------------------------------*/
+
+/**
+ * copyright 2023 sikharthy infotech
+ */
+
+/*-----------------------------------*\
+  #SERVICE
+\*-----------------------------------*/
+
+.services {
+  background-color: var(--ghost-white);
+}
+
+.services .section-title {
+  margin-block: 30px 60px;
+}
+
+.service-card,
+.services .link-card {
+  padding: 45px;
+  border-radius: var(--radius-20);
+}
+
+.service-card {
+  height: 100%;
+  background-color: var(--white);
+  padding-block-end: 40px;
+  border-block-end: 3px solid transparent;
+  box-shadow: var(--shadow-3);
+  transition: var(--transition-1);
+}
+
+.service-card:is(:hover, :focus-within) {
+  border-color: hsla(var(--color));
+}
+
+.service-card .card-icon {
+  max-width: max-content;
+  padding: 15px;
+  border-radius: var(--radius-8);
+  background-color: hsla(var(--color), 0.15);
+  margin-block-end: 15px;
+  transition: var(--transition-2);
+}
+
+.service-card:is(:hover, :focus-within) .card-icon {
+  transform: rotateY(0.5turn);
+}
+
+.service-card .card-title {
+  transition: var(--transition-1);
+}
+
+.service-card:is(:hover, :focus-within) .card-title {
+  color: hsla(var(--color));
+}
+
+.services .link-card {
+  background-color: hsla(var(--color), 0.15);
+  text-align: center;
+}
+
+.services .link-card .span {
+  color: var(--raisin-black-1);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  margin-block-end: 20px;
+  transition: var(--transition-1);
+}
+
+.services .link-card:is(:hover, :focus-within) .span {
+  color: var(--persian-red);
+}
+
+.services .link-card ion-icon {
+  color: var(--persian-red);
+  font-size: 15rem;
+  transform: rotate(-45deg);
+  margin: -25px auto;
+  transition: var(--transition-1);
+}
+
+.services .link-card:is(:hover, :focus-within) ion-icon {
+  color: hsla(var(--color));
+}
