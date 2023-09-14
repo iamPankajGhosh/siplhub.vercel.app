@@ -5,22 +5,15 @@ import images from "../../constants/images";
 
 import "./Hero.css";
 
-export default function Hero() {
+export default function Hero({ title, text, heroBanner }) {
   return (
     <>
       <section className="section hero" id="home" aria-label="hero">
         <div className="container">
           <div className="hero-content">
-            <h1 className="h1 hero-title">
-              Building Digital <span className="has-before"> Website</span>,
-              Content and Marketing
-            </h1>
+            <h1 className="h1 hero-title">{title}</h1>
 
-            <p className="hero-text">
-              Sikharthy Infotech Pvt. Ltd. is a Kolkata-based company offering
-              web development, software development, website design, content
-              development, and digital marketing services.
-            </p>
+            <p className="hero-text">{text}</p>
 
             <div className="wrapper">
               <Link
@@ -81,7 +74,7 @@ export default function Hero() {
 
           <figure className="hero-banner">
             <img
-              src={images.heroBanner}
+              src={heroBanner}
               width="794"
               height="637"
               alt="hero banner"
