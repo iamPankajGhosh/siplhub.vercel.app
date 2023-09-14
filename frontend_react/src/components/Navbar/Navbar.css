@@ -36,12 +36,6 @@
   align-items: center;
 }
 
-.logo {
-  color: var(--raisin-black-1);
-  font-size: 3rem;
-  font-weight: var(--fw-700);
-}
-
 .nav-open-btn {
   background-color: var(--white);
   color: var(--eerie-black);
@@ -81,10 +75,6 @@
   margin-block-end: 60px;
 }
 
-.navbar .logo {
-  color: var(--white);
-}
-
 .nav-close-btn {
   color: var(--white);
   font-size: 30px;
@@ -92,7 +82,7 @@
 }
 
 .nav-close-btn:is(:hover, :focus) {
-  color: var(--bittersweet);
+  color: var(--persian-red);
 }
 
 .navbar-item:not(:last-child) {
