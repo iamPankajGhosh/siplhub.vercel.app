@@ -20,7 +20,6 @@
   --raisin-black_20: hsla(240, 8%, 12%, 0.2);
   --raisin-black-1: hsl(240, 8%, 17%);
   --raisin-black-2: hsl(240, 8%, 12%);
-  --majorelle-blue: hsl(241, 77%, 63%);
   --blue-ryb_80: hsla(241, 88%, 60%, 0.8);
   --persian-red: hsl(0, 76%, 51%);
   --eerie-black: hsl(0, 0%, 13%);
@@ -451,11 +450,11 @@ body {
 }
 
 .services .link-card:is(:hover, :focus-within) .span {
-  color: var(--majorelle-blue);
+  color: var(--persian-red);
 }
 
 .services .link-card ion-icon {
-  color: var(--majorelle-blue);
+  color: var(--persian-red);
   font-size: 15rem;
   transform: rotate(-45deg);
   margin: -25px auto;
@@ -613,7 +612,7 @@ body {
 }
 
 .email-field {
-  background-color: var(--majorelle-blue);
+  background-color: var(--persian-red);
   color: var(--white);
   font-size: var(--fs-9);
   min-height: 60px;
@@ -688,7 +687,7 @@ body {
 }
 
 .blog-card .tag {
-  color: var(--majorelle-blue);
+  color: var(--persian-red);
   font-size: var(--fs-9);
   font-weight: var(--fw-700);
   text-transform: uppercase;
@@ -725,7 +724,7 @@ body {
 }
 
 .blog-card .card-title:is(:hover, :focus) {
-  color: var(--majorelle-blue);
+  color: var(--persian-red);
 }
 
 /*-----------------------------------*\
@@ -766,7 +765,7 @@ body {
 }
 
 .footer .social-link:is(:hover, :focus) {
-  background-color: var(--majorelle-blue);
+  background-color: var(--persian-red);
   color: var(--white);
 }
 
@@ -841,7 +840,7 @@ body {
   position: fixed;
   bottom: 20px;
   right: 30px;
-  background-color: var(--majorelle-blue);
+  background-color: var(--persian-red);
   color: var(--white);
   font-size: 18px;
   padding: 16px;
