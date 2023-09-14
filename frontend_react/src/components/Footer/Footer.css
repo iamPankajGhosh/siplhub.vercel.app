@@ -108,5 +108,5 @@
 }
 
 .footer-bottom-link:is(:hover, :focus) {
-  color: var(--mustard);
+  color: var(--persian-red);
 }
