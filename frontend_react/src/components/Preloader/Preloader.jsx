@@ -7,25 +7,19 @@ export default function Preloader() {
    *  preloader
    */
 
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState("");
 
   useEffect(() => {
     setTimeout(() => {
-      setIsLoading(false);
+      setIsLoading("loaded");
     }, 1200);
   }, []);
 
   return (
     <>
-      {isLoading ? (
-        <div className="preloader has-bg-image">
-          <div className="circle"></div>
-        </div>
-      ) : (
-        <div className="preloader loaded has-bg-image">
-          <div className="circle"></div>
-        </div>
-      )}
+      <div className={`preloader ${isLoading} has-bg-image`}>
+        <div className="circle"></div>
+      </div>
     </>
   );
 }

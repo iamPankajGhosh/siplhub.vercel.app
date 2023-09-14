@@ -18,7 +18,7 @@
   height: 100vh;
   background-color: var(--white);
   background-image: url("../../assets/img/loader.png");
-  background-size: 80px !important;
+  background-size: 60px !important;
   z-index: 10;
   display: grid;
   place-items: center;
