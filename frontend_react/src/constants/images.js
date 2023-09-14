@@ -3,6 +3,7 @@
  */
 
 import logo from "../assets/img/logo.png";
+import logoDark from "../assets/img/logoDark.png";
 import heroBanner from "../assets/img/hero-banner.png";
 
 /**
@@ -63,6 +64,7 @@ import instaPost6 from "../assets/img/insta-post-6.jpg";
 
 export default {
   logo,
+  logoDark,
   heroBanner,
   serviceIcon1,
   serviceIcon2,

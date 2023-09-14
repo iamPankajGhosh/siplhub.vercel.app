@@ -67,7 +67,12 @@ export default function Navbar() {
           <nav className={`navbar ${isOpen ? "active" : ""}`}>
             <div className="wrapper">
               <Link to="/" className="logo" onClick={toggleNavbar}>
-                {brandLogo}
+                <img
+                  src={images.logoDark}
+                  width="100"
+                  loading="lazy"
+                  alt="Sikharthy Infotech"
+                />
               </Link>
 
               <button
