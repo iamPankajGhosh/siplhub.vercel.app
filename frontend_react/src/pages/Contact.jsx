@@ -1,6 +1,7 @@
 import React from "react";
 import { Preloader, Navbar, Footer } from "../components";
 import { Hero } from "../containers";
+import images from "../constants/images";
 
 export default function Contact() {
   return (
@@ -10,7 +11,11 @@ export default function Contact() {
 
       <main>
         <article>
-          <Hero />
+          <Hero
+            title="Let's get in touch"
+            text="We're open for any suggestion or just to have a chat"
+            heroBanner={images.heroBanner}
+          />
         </article>
       </main>
 
