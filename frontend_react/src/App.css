@@ -17,11 +17,12 @@
 
   --sky-blue-crayola: hsl(188, 64%, 60%);
   --raisin-black_90: hsla(240, 8%, 12%, 0.9);
+  --raisin-black_20: hsla(240, 8%, 12%, 0.2);
   --raisin-black-1: hsl(240, 8%, 17%);
   --raisin-black-2: hsl(240, 8%, 12%);
   --majorelle-blue: hsl(241, 77%, 63%);
   --blue-ryb_80: hsla(241, 88%, 60%, 0.8);
-  --bittersweet: hsl(0, 100%, 69%);
+  --persian-red: hsl(0, 76%, 51%);
   --eerie-black: hsl(0, 0%, 13%);
   --ghost-white: hsl(230, 60%, 98%);
   --light-gray: hsl(0, 0%, 80%);
@@ -378,7 +379,7 @@ body {
   object-fit: cover;
 }
 
-.has-bg-iamge {
+.has-bg-image {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

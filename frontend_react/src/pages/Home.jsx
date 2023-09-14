@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { Navbar, Footer } from "../components";
+import { Preloader, Navbar, Footer } from "../components";
 import images from "../constants/images";
 import { Hero, Service } from "../containers";
 
 export default function Home() {
   return (
     <>
+      <Preloader />
+
       <Navbar />
 
       <main>
