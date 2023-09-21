@@ -1,6 +1,5 @@
 import React from "react";
 import { Preloader, Navbar, Footer } from "../components";
-import { Hero, Service } from "../containers";
 
 export default function Services() {
   return (
@@ -9,10 +8,7 @@ export default function Services() {
       <Navbar />
 
       <main>
-        <article>
-          <Hero />
-          <Service />
-        </article>
+        <article></article>
       </main>
 
       <Footer />

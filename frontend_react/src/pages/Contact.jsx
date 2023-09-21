@@ -1,6 +1,5 @@
 import React from "react";
 import { Preloader, Navbar, Footer } from "../components";
-import { Hero } from "../containers";
 
 export default function Contact() {
   return (
@@ -9,9 +8,7 @@ export default function Contact() {
       <Navbar />
 
       <main>
-        <article>
-          <Hero />
-        </article>
+        <article></article>
       </main>
 
       <Footer />

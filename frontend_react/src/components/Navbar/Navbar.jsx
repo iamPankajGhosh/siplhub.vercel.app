@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import images from "../../constants/images";
 import "./Navbar.css";
@@ -57,7 +57,7 @@ export default function Navbar() {
           <Link to="/" className="logo">
             <img
               src={brandLogo}
-              width="180"
+              width="150"
               height="95"
               loading="lazy"
               alt="Sikharthy Infotech"
@@ -87,9 +87,9 @@ export default function Navbar() {
             <ul className="navbar-list">
               {navbarLink.map((link) => (
                 <li className="navbar-item" onClick={closeNavbar}>
-                  <Link to={`/${link}`} className="navbar-link">
+                  <NavLink to={`/${link}`} className="navbar-link">
                     {link}
-                  </Link>
+                  </NavLink>
                 </li>
               ))}
             </ul>
