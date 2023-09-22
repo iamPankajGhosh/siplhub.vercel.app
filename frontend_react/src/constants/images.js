@@ -16,6 +16,7 @@ import serviceIcon1 from "../assets/img/service-icon-1.png";
 import serviceIcon2 from "../assets/img/service-icon-2.png";
 import serviceIcon3 from "../assets/img/service-icon-3.png";
 import serviceIcon4 from "../assets/img/service-icon-4.png";
+import serviceIcon5 from "../assets/img/service-icon-5.png";
 
 /**
  * feature images
@@ -74,6 +75,7 @@ export default {
   serviceIcon2,
   serviceIcon3,
   serviceIcon4,
+  serviceIcon5,
   featureBanner,
   projectBanner1,
   projectBanner2,

@@ -213,7 +213,7 @@ export default function Home() {
                     className="link-card"
                     style={{ "--color": "203, 97%, 75%" }}
                   >
-                    <span className="span">04 More Service</span>
+                    <span className="span">01 More Service</span>
 
                     <ion-icon
                       name="arrow-forward"

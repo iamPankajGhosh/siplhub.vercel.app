@@ -152,6 +152,29 @@ export default function Services() {
                     </h3>
                   </div>
                 </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "17, 100%, 68%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.serviceIcon5}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Fast Customer Support
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
