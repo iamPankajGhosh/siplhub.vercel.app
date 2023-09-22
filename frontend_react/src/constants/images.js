@@ -6,6 +6,7 @@ import logo from "../assets/img/logo.png";
 import logoDark from "../assets/img/logoDark.png";
 import heroBanner from "../assets/img/hero-banner.png";
 import aboutBanner from "../assets/img/about-banner.png";
+import serviceBanner from "../assets/img/service-banner.png";
 
 /**
  * service images
@@ -68,6 +69,7 @@ export default {
   logoDark,
   heroBanner,
   aboutBanner,
+  serviceBanner,
   serviceIcon1,
   serviceIcon2,
   serviceIcon3,

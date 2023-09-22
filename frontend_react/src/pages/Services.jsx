@@ -33,7 +33,7 @@ export default function Services() {
 
               <figure className="hero-banner">
                 <img
-                  src={images.heroBanner}
+                  src={images.serviceBanner}
                   width="794"
                   height="637"
                   alt="hero banner"
