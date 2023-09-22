@@ -77,10 +77,10 @@ export default function About() {
 
               <figure className="hero-banner">
                 <img
-                  src={images.heroBanner}
+                  src={images.aboutBanner}
                   width="794"
                   height="637"
-                  alt="hero banner"
+                  alt="about banner"
                   className="w-100"
                 />
               </figure>
