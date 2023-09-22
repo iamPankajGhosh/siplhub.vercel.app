@@ -541,7 +541,7 @@ export default function Home() {
                     name="email_address"
                     placeholder="Enter your mail"
                     required
-                    className="email-field"
+                    className="contact-field"
                   />
 
                   <button

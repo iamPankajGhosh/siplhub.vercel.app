@@ -139,13 +139,15 @@ img {
 }
 
 input,
-button {
+button,
+textarea {
   background: none;
   border: none;
   font: inherit;
 }
 
-input {
+input,
+textarea {
   width: 100%;
 }
 
@@ -532,7 +534,7 @@ body {
 }
 
 .services .link-card:is(:hover, :focus-within) ion-icon {
-  color: hsla(var(--color));
+  color: var(--red-ryb_80);
 }
 
 /*-----------------------------------*\
@@ -681,7 +683,7 @@ body {
   margin-block: 20px 35px;
 }
 
-.email-field {
+.contact-field {
   background-color: var(--white);
   color: var(--raisin-black-2);
   font-size: var(--fs-9);
@@ -695,11 +697,11 @@ body {
   transition: var(--transition-1);
 }
 
-.email-field:focus {
-  outline-color: var(--white);
+.contact-field:focus {
+  outline-color: var(--mustard);
 }
 
-.email-field::placeholder {
+.contact-field::placeholder {
   color: inherit;
 }
 
@@ -1012,6 +1014,14 @@ body {
     padding-inline: 25px;
   }
 
+  #contact .btn-secondary {
+    right: 0;
+    bottom: -50px;
+    top: auto;
+    height: 60px;
+    min-width: 200px;
+  }
+
   /**
     * BLOG
     */
@@ -1201,7 +1211,7 @@ body {
     margin-inline-start: auto;
   }
 
-  .email-field {
+  .contact-field {
     min-height: 80px;
     padding-inline: 40px;
   }
@@ -1324,6 +1334,11 @@ body {
   .hero-banner {
     margin-inline-end: -200px;
     max-width: max-content;
+  }
+
+  #contact .hero-banner {
+    max-width: none;
+    margin-inline-end: 0;
   }
 
   /**
