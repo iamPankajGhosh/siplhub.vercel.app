@@ -65,55 +65,39 @@ export default function Footer() {
 
             <ul className="footer-list">
               <li>
-                <p className="footer-list-title">Usefull Links</p>
+                <p className="footer-list-title">Contact Details</p>
               </li>
 
               <li>
-                <Link to="/" className="footer-link">
-                  Contact us
+                <Link to="tel:+918910887254" className="footer-link">
+                  +91-8910-887-254
                 </Link>
               </li>
 
               <li>
-                <Link to="/" className="footer-link">
-                  Terms & Services
+                <Link to="tel:+918584079096" className="footer-link">
+                  +91-8584-079-096
+                </Link>
+              </li>
+
+              <li>
+                <Link to="mailto:info@siplhub.com" className="footer-link">
+                  info@siplhub.com
                 </Link>
               </li>
             </ul>
 
             <ul className="footer-list">
               <li>
-                <p className="footer-list-title">Community</p>
+                <p className="footer-list-title">Address</p>
               </li>
 
               <li>
-                <Link to="/" className="footer-link">
-                  Help Center
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/" className="footer-link">
-                  Partners
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/" className="footer-link">
-                  Suggestions
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/" className="footer-link">
-                  Blog
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/" className="footer-link">
-                  Newsletters
-                </Link>
+                <address>
+                  PS SRIJAN CORPORATE PARK, Street Number 25, GP Block Tower 1,
+                  11th Floor AKASA Sector V, Bidhannagar, Kolkata, West Bengal
+                  700091
+                </address>
               </li>
             </ul>
 
