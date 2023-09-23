@@ -45,10 +45,10 @@ import newsletterBanner from "../assets/img/newsletter-banner.png";
  * blog images
  */
 
-import blogBanner1 from "../assets/img/blog-1.jpg";
-import blogBanner2 from "../assets/img/blog-2.jpg";
-import blogBanner3 from "../assets/img/blog-3.png";
-import blogBanner4 from "../assets/img/blog-4.png";
+import serviceBanner1 from "../assets/img/service-banner-1.png";
+import serviceBanner2 from "../assets/img/service-banner-2.png";
+import serviceBanner3 from "../assets/img/service-banner-3.png";
+import serviceBanner4 from "../assets/img/service-banner-4.png";
 
 /**
  * footer images
@@ -84,10 +84,10 @@ export default {
   projectBanner5,
   newsletterBg,
   newsletterBanner,
-  blogBanner1,
-  blogBanner2,
-  blogBanner3,
-  blogBanner4,
+  serviceBanner1,
+  serviceBanner2,
+  serviceBanner3,
+  serviceBanner4,
   instaPost1,
   instaPost2,
   instaPost3,

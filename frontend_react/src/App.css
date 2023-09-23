@@ -771,7 +771,7 @@ body {
 }
 
 .blog-card .publish-date {
-  display: flex;
+  display: none;
   align-items: center;
   gap: 10px;
   color: var(--cool-gray);
@@ -1035,6 +1035,10 @@ body {
   .blog-card:not(.large) .card-banner {
     margin-block-end: 0;
     flex-shrink: 0;
+  }
+
+  .blog-card:not(.large) .card-banner > img {
+    width: 200px;
   }
 
   .blog-card .card-title {

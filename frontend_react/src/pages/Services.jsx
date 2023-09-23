@@ -281,6 +281,390 @@ export default function Services() {
               </div>
             </div>
           </section>
+
+          {/* #TRAINING COURSES */}
+
+          <section className="section blog" id="blog" aria-label="blog">
+            <div className="container">
+              <p className="section-subtitle has-before text-center">
+                Training Courses
+              </p>
+
+              <h2 className="h2 section-title text-center">
+                Industrial Training <span className="has-before"> Program</span>
+              </h2>
+
+              <ul className="blog-list">
+                <li>
+                  <div className="blog-card large">
+                    <figure className="card-banner">
+                      <img
+                        src={images.blogBanner1}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="blog banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Training
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3>
+                        <Link to="/services" className="card-title">
+                          Developer Internship
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        For software engineering interns, some must-have skills
+                        to include are programming, time management, logical
+                        analysis, and the ability to contribute and collaborate.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.blogBanner2}
+                        width="202"
+                        height="162"
+                        loading="lazy"
+                        alt="blog banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Training
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3 className="h3">
+                        <Link to="/services" className="card-title">
+                          JavaScript
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        Every line of code you write in a language like
+                        JavaScript affects.Happiness plays an important role in
+                        the programming process. Rewarding yourself for a job.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.blogBanner3}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="blog banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Training
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3 className="h3">
+                        <Link to="/services" className="card-title">
+                          Custumer Support Executive
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        customer support executives manage a team of customer
+                        support representatives and maintain customer. The team
+                        is adequately trained to promote customer service.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.blogBanner4}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="blog banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Training
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3 className="h3">
+                        <Link to="/services" className="card-title">
+                          MERN Stack
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        MERN stack is a collection of technologies that enables
+                        faster application development. It is used by developers
+                        worldwide.This is because the four technologies.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          {/* #SKILL DEVELOPMENT COURSES */}
+
+          <section className="section blog" id="blog" aria-label="blog">
+            <div className="container">
+              <p className="section-subtitle has-before text-center">
+                Skill Development Courses
+              </p>
+
+              <h2 className="h2 section-title text-center">
+                Learn New <span className="has-before"> Technology</span>
+              </h2>
+
+              <ul className="blog-list">
+                <li>
+                  <div className="blog-card large">
+                    <figure className="card-banner">
+                      <img
+                        src={images.blogBanner1}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="blog banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Development
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3>
+                        <Link to="/services" className="card-title">
+                          Developer Internship
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        For software engineering interns, some must-have skills
+                        to include are programming, time management, logical
+                        analysis, and the ability to contribute and collaborate.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.blogBanner2}
+                        width="202"
+                        height="162"
+                        loading="lazy"
+                        alt="blog banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Development
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3 className="h3">
+                        <Link to="/services" className="card-title">
+                          JavaScript
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        Every line of code you write in a language like
+                        JavaScript affects.Happiness plays an important role in
+                        the programming process. Rewarding yourself for a job.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.blogBanner3}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="blog banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Development
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3 className="h3">
+                        <Link to="/services" className="card-title">
+                          Custumer Support Executive
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        customer support executives manage a team of customer
+                        support representatives and maintain customer. The team
+                        is adequately trained to promote customer service.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.blogBanner4}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="blog banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Development
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3 className="h3">
+                        <Link to="/services" className="card-title">
+                          MERN Stack
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        MERN stack is a collection of technologies that enables
+                        faster application development. It is used by developers
+                        worldwide.This is because the four technologies.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
         </article>
       </main>
 

@@ -565,11 +565,12 @@ export default function Home() {
           <section className="section blog" id="blog" aria-label="blog">
             <div className="container">
               <p className="section-subtitle has-before text-center">
-                Blog Post
+                Training Courses
               </p>
 
               <h2 className="h2 section-title text-center">
-                Popular <span className="has-before">blog post</span>
+                Popular Training and Skill{" "}
+                <span className="has-before">Development</span> Courses
               </h2>
 
               <ul className="blog-list">
@@ -577,22 +578,22 @@ export default function Home() {
                   <div className="blog-card large">
                     <figure className="card-banner">
                       <img
-                        src={images.blogBanner1}
+                        src={images.serviceBanner1}
                         width="644"
                         height="363"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="service banner"
                         className="img-cover"
                       />
                     </figure>
 
                     <div className="card-content">
                       <div className="wrapper">
-                        <Link to="/" className="tag">
-                          Development
+                        <Link to="/services" className="tag">
+                          Training
                         </Link>
 
-                        <Link to="/" className="publish-date">
+                        <Link to="/services" className="publish-date">
                           <ion-icon
                             name="time-outline"
                             aria-hidden="true"
@@ -603,16 +604,15 @@ export default function Home() {
                       </div>
 
                       <h3>
-                        <Link to="/" className="card-title">
-                          Dummy blog
+                        <Link to="/services" className="card-title">
+                          Developer Internship
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        Sikharthy Infotech Pvt. Ltd. is a Kolkata-based company
-                        offering web development, software development, website
-                        design, content development, and digital marketing
-                        services.
+                        For software engineering interns, some must-have skills
+                        to include are programming, time management, logical
+                        analysis, and the ability to contribute and collaborate.
                       </p>
                     </div>
                   </div>
@@ -622,22 +622,22 @@ export default function Home() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.blogBanner2}
-                        width="202"
+                        src={images.serviceBanner2}
+                        width="200"
                         height="162"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="service banner"
                         className="img-cover"
                       />
                     </figure>
 
                     <div className="card-content">
                       <div className="wrapper">
-                        <Link to="/" className="tag">
-                          Development
+                        <Link to="/services" className="tag">
+                          Skill Development
                         </Link>
 
-                        <Link to="/" className="publish-date">
+                        <Link to="/services" className="publish-date">
                           <ion-icon
                             name="time-outline"
                             aria-hidden="true"
@@ -648,10 +648,16 @@ export default function Home() {
                       </div>
 
                       <h3 className="h3">
-                        <Link to="/" className="card-title">
-                          Dummy blog
+                        <Link to="/services" className="card-title">
+                          JavaScript
                         </Link>
                       </h3>
+
+                      <p className="card-text">
+                        Every line of code you write in a language like
+                        JavaScript affects.Happiness plays an important role in
+                        the programming process. Rewarding yourself for a job.
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -660,22 +666,22 @@ export default function Home() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.blogBanner3}
+                        src={images.serviceBanner3}
                         width="644"
                         height="363"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="service banner"
                         className="img-cover"
                       />
                     </figure>
 
                     <div className="card-content">
                       <div className="wrapper">
-                        <Link to="/" className="tag">
-                          Development
+                        <Link to="/services" className="tag">
+                          Training
                         </Link>
 
-                        <Link to="/" className="publish-date">
+                        <Link to="/services" className="publish-date">
                           <ion-icon
                             name="time-outline"
                             aria-hidden="true"
@@ -686,10 +692,16 @@ export default function Home() {
                       </div>
 
                       <h3 className="h3">
-                        <Link to="/" className="card-title">
-                          Dummy blog
+                        <Link to="/services" className="card-title">
+                          Custumer Support Executive
                         </Link>
                       </h3>
+
+                      <p className="card-text">
+                        customer support executives manage a team of customer
+                        support representatives and maintain customer. The team
+                        is adequately trained to promote customer service.
+                      </p>
                     </div>
                   </div>
                 </li>
@@ -698,22 +710,22 @@ export default function Home() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.blogBanner4}
+                        src={images.serviceBanner4}
                         width="644"
                         height="363"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="service banner"
                         className="img-cover"
                       />
                     </figure>
 
                     <div className="card-content">
                       <div className="wrapper">
-                        <Link to="/" className="tag">
+                        <Link to="/services" className="tag">
                           Development
                         </Link>
 
-                        <Link to="/" className="publish-date">
+                        <Link to="/services" className="publish-date">
                           <ion-icon
                             name="time-outline"
                             aria-hidden="true"
@@ -724,10 +736,16 @@ export default function Home() {
                       </div>
 
                       <h3 className="h3">
-                        <Link to="/" className="card-title">
-                          Dummy blog
+                        <Link to="/services" className="card-title">
+                          MERN Stack
                         </Link>
                       </h3>
+
+                      <p className="card-text">
+                        MERN stack is a collection of technologies that enables
+                        faster application development. It is used by developers
+                        worldwide.This is because the four technologies.
+                      </p>
                     </div>
                   </div>
                 </li>
