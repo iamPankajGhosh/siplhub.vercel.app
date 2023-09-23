@@ -49,6 +49,20 @@ import courseBanner1 from "../assets/img/course-banner-1.png";
 import courseBanner2 from "../assets/img/course-banner-2.png";
 import courseBanner3 from "../assets/img/course-banner-3.png";
 import courseBanner4 from "../assets/img/course-banner-4.png";
+import courseBanner5 from "../assets/img/course-banner-5.png";
+import courseBanner6 from "../assets/img/course-banner-6.png";
+import courseBanner7 from "../assets/img/course-banner-7.png";
+import courseBanner8 from "../assets/img/course-banner-8.png";
+import courseBanner9 from "../assets/img/course-banner-9.png";
+import courseBanner10 from "../assets/img/course-banner-10.png";
+import courseBanner11 from "../assets/img/course-banner-11.png";
+import courseBanner12 from "../assets/img/course-banner-12.png";
+import courseBanner13 from "../assets/img/course-banner-13.png";
+import courseBanner14 from "../assets/img/course-banner-14.webp";
+import courseBanner15 from "../assets/img/course-banner-15.png";
+import courseBanner16 from "../assets/img/course-banner-16.jpeg";
+import courseBanner17 from "../assets/img/course-banner-17.jpeg";
+import courseBanner18 from "../assets/img/course-banner-18.jpeg";
 
 /**
  * footer images
@@ -88,6 +102,20 @@ export default {
   courseBanner2,
   courseBanner3,
   courseBanner4,
+  courseBanner5,
+  courseBanner6,
+  courseBanner7,
+  courseBanner8,
+  courseBanner9,
+  courseBanner10,
+  courseBanner11,
+  courseBanner12,
+  courseBanner13,
+  courseBanner14,
+  courseBanner15,
+  courseBanner16,
+  courseBanner17,
+  courseBanner18,
   instaPost1,
   instaPost2,
   instaPost3,
