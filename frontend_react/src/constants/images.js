@@ -42,13 +42,13 @@ import newsletterBg from "../assets/img/newsletter-bg.jpg";
 import newsletterBanner from "../assets/img/newsletter-banner.png";
 
 /**
- * blog images
+ * courses images
  */
 
-import serviceBanner1 from "../assets/img/service-banner-1.png";
-import serviceBanner2 from "../assets/img/service-banner-2.png";
-import serviceBanner3 from "../assets/img/service-banner-3.png";
-import serviceBanner4 from "../assets/img/service-banner-4.png";
+import courseBanner1 from "../assets/img/course-banner-1.png";
+import courseBanner2 from "../assets/img/course-banner-2.png";
+import courseBanner3 from "../assets/img/course-banner-3.png";
+import courseBanner4 from "../assets/img/course-banner-4.png";
 
 /**
  * footer images
@@ -84,10 +84,10 @@ export default {
   projectBanner5,
   newsletterBg,
   newsletterBanner,
-  serviceBanner1,
-  serviceBanner2,
-  serviceBanner3,
-  serviceBanner4,
+  courseBanner1,
+  courseBanner2,
+  courseBanner3,
+  courseBanner4,
   instaPost1,
   instaPost2,
   instaPost3,

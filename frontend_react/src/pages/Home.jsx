@@ -560,7 +560,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* #BLOG */}
+          {/* #COURSE*/}
 
           <section className="section blog" id="blog" aria-label="blog">
             <div className="container">
@@ -578,7 +578,7 @@ export default function Home() {
                   <div className="blog-card large">
                     <figure className="card-banner">
                       <img
-                        src={images.serviceBanner1}
+                        src={images.courseBanner1}
                         width="644"
                         height="363"
                         loading="lazy"
@@ -622,7 +622,7 @@ export default function Home() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.serviceBanner2}
+                        src={images.courseBanner2}
                         width="200"
                         height="162"
                         loading="lazy"
@@ -666,7 +666,7 @@ export default function Home() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.serviceBanner3}
+                        src={images.courseBanner3}
                         width="644"
                         height="363"
                         loading="lazy"
@@ -710,7 +710,7 @@ export default function Home() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.serviceBanner4}
+                        src={images.courseBanner4}
                         width="644"
                         height="363"
                         loading="lazy"
