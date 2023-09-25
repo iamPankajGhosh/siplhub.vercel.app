@@ -373,12 +373,20 @@ export default function Home() {
 
                     <div className="card-content">
                       <h3 className="h3">
-                        <Link to="/" className="card-title">
-                          Project
+                        <Link
+                          to="https://paintemporium.in/"
+                          target="_blank"
+                          className="card-title"
+                        >
+                          Paint Emporium
                         </Link>
                       </h3>
 
-                      <Link to="/" className="card-tag">
+                      <Link
+                        to="https://paintemporium.in/"
+                        target="_blank"
+                        className="card-tag"
+                      >
                         Website
                       </Link>
                     </div>
@@ -403,12 +411,20 @@ export default function Home() {
 
                     <div className="card-content">
                       <h3 className="h3">
-                        <Link to="/" className="card-title">
-                          Project
+                        <Link
+                          to="https://lcgpolytechnic.netlify.app/"
+                          target="_blank"
+                          className="card-title"
+                        >
+                          LCG Polytechnic
                         </Link>
                       </h3>
 
-                      <Link to="/" className="card-tag">
+                      <Link
+                        to="https://lcgpolytechnic.netlify.app/"
+                        target="_blank"
+                        className="card-tag"
+                      >
                         Website
                       </Link>
                     </div>
@@ -433,12 +449,20 @@ export default function Home() {
 
                     <div className="card-content">
                       <h3 className="h3">
-                        <Link to="/" className="card-title">
-                          Project
+                        <Link
+                          to="https://security.siplhub.com/"
+                          target="_blank"
+                          className="card-title"
+                        >
+                          Black & Blue
                         </Link>
                       </h3>
 
-                      <Link to="/" className="card-tag">
+                      <Link
+                        to="https://security.siplhub.com/"
+                        target="_blank"
+                        className="card-tag"
+                      >
                         Website
                       </Link>
                     </div>
@@ -463,12 +487,20 @@ export default function Home() {
 
                     <div className="card-content">
                       <h3 className="h3">
-                        <Link to="/" className="card-title">
-                          Project
+                        <Link
+                          to="http://www.touresprit.com/"
+                          target="_blank"
+                          className="card-title"
+                        >
+                          Tour Esprite
                         </Link>
                       </h3>
 
-                      <Link to="/" className="card-tag">
+                      <Link
+                        to="http://www.touresprit.com/"
+                        target="_blank"
+                        className="card-tag"
+                      >
                         Website
                       </Link>
                     </div>
@@ -493,12 +525,20 @@ export default function Home() {
 
                     <div className="card-content">
                       <h3 className="h3">
-                        <Link to="/" className="card-title">
-                          Project
+                        <Link
+                          to="https://sm-enterprise.in/"
+                          target="_blank"
+                          className="card-title"
+                        >
+                          SM Enterprise
                         </Link>
                       </h3>
 
-                      <Link to="/" className="card-tag">
+                      <Link
+                        to="https://sm-enterprise.in/"
+                        target="_blank"
+                        className="card-tag"
+                      >
                         Website
                       </Link>
                     </div>

@@ -28,11 +28,11 @@ import featureBanner from "../assets/img/feature-banner.png";
  * project images
  */
 
-import projectBanner1 from "../assets/img/project-1.jpg";
-import projectBanner2 from "../assets/img/project-2.jpg";
-import projectBanner3 from "../assets/img/project-3.jpg";
-import projectBanner4 from "../assets/img/project-4.jpg";
-import projectBanner5 from "../assets/img/project-5.jpg";
+import projectBanner1 from "../assets/img/project-banner-1.png";
+import projectBanner2 from "../assets/img/project-banner-2.png";
+import projectBanner3 from "../assets/img/project-banner-3.png";
+import projectBanner4 from "../assets/img/project-banner-4.png";
+import projectBanner5 from "../assets/img/project-banner-5.png";
 
 /**
  * affiliation images
