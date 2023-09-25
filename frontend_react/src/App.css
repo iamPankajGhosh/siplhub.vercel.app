@@ -496,6 +496,11 @@ body {
   transition: var(--transition-2);
 }
 
+#affiliation .card-icon > img,
+#client .card-icon > img {
+  width: 100%;
+}
+
 .service-card:is(:hover, :focus-within) .card-icon {
   transform: rotateY(0.5turn);
 }

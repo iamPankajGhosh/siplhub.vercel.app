@@ -213,7 +213,7 @@ export default function Home() {
                     className="link-card"
                     style={{ "--color": "203, 97%, 75%" }}
                   >
-                    <span className="span">01 More Service</span>
+                    <span className="span">10 More Service</span>
 
                     <ion-icon
                       name="arrow-forward"
@@ -508,6 +508,142 @@ export default function Home() {
             </div>
           </section>
 
+          {/* #AFFILIATION */}
+
+          <section
+            className="section services"
+            id="affiliation"
+            aria-label="service"
+          >
+            <div className="container">
+              <p className="section-subtitle has-before text-center">
+                Certification
+              </p>
+
+              <h2 className="h2 section-title text-center">
+                Our Affiliations &{" "}
+                <span className="has-before">Accreditation</span>
+              </h2>
+
+              <ul className="grid-list">
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.affiliationIcon1}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Utkarsh Bangla
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.affiliationIcon2}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        National Skill Development Corporation
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.affiliationIcon3}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Startup India
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.affiliationIcon4}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Board Of Practical Training
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.affiliationIcon5}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Skill India
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
           {/* #NEWSLETTER */}
 
           <section
@@ -557,6 +693,392 @@ export default function Home() {
                   </button>
                 </form>
               </div>
+            </div>
+          </section>
+
+          {/* #CLIENTS */}
+
+          <section
+            className="section services"
+            id="client"
+            aria-label="service"
+          >
+            <div className="container">
+              <p className="section-subtitle has-before text-center">Clients</p>
+
+              <h2 className="h2 section-title text-center">
+                Our Honourable <span className="has-before"> Clients</span>
+              </h2>
+
+              <ul className="grid-list">
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo1}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Framable
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo2}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Tour Esprite
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo3}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Stay Safe With Us
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo4}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Learnin 8 Days
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo5}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Black & Blue
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo6}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        AOTA
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.affiliationIcon4}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Board Of Practical Training
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo8}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Govt. of West Bengal
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo9}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Administrative Training Institute
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo10}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Top Coat Paints
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo11}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        N.R.Rubber Industries
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo12}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        P.I.I.M
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo13}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        L.C.G Polytechnic
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo14}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="service icon"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Techno India Group
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo15}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Guru Nanak Institute of Technology
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+
+                <li>
+                  <div
+                    className="service-card"
+                    style={{ "--color": "210, 100%, 53%" }}
+                  >
+                    <div className="card-icon">
+                      <img
+                        src={images.clientLogo16}
+                        width="30"
+                        height="30"
+                        loading="lazy"
+                        alt="client logo"
+                      />
+                    </div>
+
+                    <h3 className="h3">
+                      <Link to="#" className="card-title">
+                        Paint Emporium
+                      </Link>
+                    </h3>
+                  </div>
+                </li>
+              </ul>
             </div>
           </section>
 

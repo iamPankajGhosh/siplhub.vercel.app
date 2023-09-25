@@ -35,11 +35,41 @@ import projectBanner4 from "../assets/img/project-4.jpg";
 import projectBanner5 from "../assets/img/project-5.jpg";
 
 /**
+ * affiliation images
+ */
+
+import affiliationIcon1 from "../assets/img/affiliation-icon-1.jpg";
+import affiliationIcon2 from "../assets/img/affiliation-icon-2.jpeg";
+import affiliationIcon3 from "../assets/img/affiliation-icon-3.webp";
+import affiliationIcon4 from "../assets/img/affiliation-icon-4.png";
+import affiliationIcon5 from "../assets/img/affiliation-icon-5.png";
+
+/**
  * newsletter images
  */
 
 import newsletterBg from "../assets/img/newsletter-bg.jpg";
 import newsletterBanner from "../assets/img/newsletter-banner.png";
+
+/**
+ * client logos
+ */
+
+import clientLogo1 from "../assets/img/client-logo-1.jpeg";
+import clientLogo2 from "../assets/img/client-logo-2.jpg";
+import clientLogo3 from "../assets/img/client-logo-3.jpeg";
+import clientLogo4 from "../assets/img/client-logo-4.jpeg";
+import clientLogo5 from "../assets/img/client-logo-5.png";
+import clientLogo6 from "../assets/img/client-logo-6.png";
+import clientLogo8 from "../assets/img/client-logo-8.png";
+import clientLogo9 from "../assets/img/client-logo-9.jpeg";
+import clientLogo10 from "../assets/img/client-logo-10.png";
+import clientLogo11 from "../assets/img/client-logo-11.png";
+import clientLogo12 from "../assets/img/client-logo-12.jpeg";
+import clientLogo13 from "../assets/img/client-logo-13.png";
+import clientLogo14 from "../assets/img/client-logo-14.webp";
+import clientLogo15 from "../assets/img/client-logo-15.png";
+import clientLogo16 from "../assets/img/client-logo-16.png";
 
 /**
  * courses images
@@ -96,6 +126,26 @@ export default {
   projectBanner3,
   projectBanner4,
   projectBanner5,
+  affiliationIcon1,
+  affiliationIcon2,
+  affiliationIcon3,
+  affiliationIcon4,
+  affiliationIcon5,
+  clientLogo1,
+  clientLogo2,
+  clientLogo3,
+  clientLogo4,
+  clientLogo5,
+  clientLogo6,
+  clientLogo8,
+  clientLogo9,
+  clientLogo10,
+  clientLogo11,
+  clientLogo12,
+  clientLogo13,
+  clientLogo14,
+  clientLogo15,
+  clientLogo16,
   newsletterBg,
   newsletterBanner,
   courseBanner1,
