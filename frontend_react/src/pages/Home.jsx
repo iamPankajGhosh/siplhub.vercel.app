@@ -1,10 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import { Preloader, Navbar, Footer } from "../components";
 import images from "../constants/images";
 
 export default function Home() {
+  const navigate = useNavigate();
+
   return (
     <>
       <Preloader />
@@ -36,7 +38,13 @@ export default function Home() {
                     How It Works
                   </Link>
 
-                  <button className="hero-btn" aria-label="sikharthy promo">
+                  <button
+                    className="hero-btn"
+                    aria-label="sikharthy promo"
+                    onClick={() => {
+                      navigate("/Watch");
+                    }}
+                  >
                     <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
 
                     <span className="span">Behind the scenes</span>
