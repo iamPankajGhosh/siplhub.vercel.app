@@ -1263,7 +1263,7 @@ export default function Home() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          Custumer Support Executive
+                          Customer Support Executive
                         </Link>
                       </h3>
 

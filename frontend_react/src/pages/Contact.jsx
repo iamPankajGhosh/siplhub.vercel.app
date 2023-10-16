@@ -51,7 +51,7 @@ export default function Contact() {
                   <textarea
                     type="text"
                     name="massage"
-                    placeholder="Enter your Massage"
+                    placeholder="Enter your Message"
                     className="contact-field"
                   />
 
