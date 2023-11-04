@@ -21,16 +21,15 @@ export default function About() {
                 </h1>
 
                 <p className="hero-text">
-                  Sikharthy Infotech Pvt. Ltd. is a Kolkata-based company
-                  offering web development, software development, website
-                  design, content development, and digital marketing services.
-                  Our online classes gained significant importance during the
-                  pandemic lockdowns, benefiting students, teachers, and
-                  institutions alike. They provide flexibility for long-distance
-                  education and have the potential to enhance traditional
-                  learning. The Internet's role in education is evolving,
-                  offering personalized and convenient learning experiences,
-                  making it a promising avenue for the future.
+                  Welcome to Sikharthy Infotech Pvt. Ltd., offering a wide array
+                  of IT Services and Solutions tailored to meet your needs. Our
+                  expertise spans Software Development, Web Development, and
+                  Mobile App Development. Elevate your business with our Cloud
+                  Solutions, Cybersecurity measures, and Digital Transformation
+                  strategies. Explore the world of Artificial Intelligence,
+                  Machine Learning, Big Data Analytics, and IoT with us. We
+                  specialize in Blockchain Technology, UI/UX Design, ERP, CRM,
+                  and Information Technology Consulting.
                 </p>
 
                 <ul className="social-list">
