@@ -69,14 +69,20 @@ export default function Footer() {
               </li>
 
               <li>
-                <Link to="tel:+918910887254" className="footer-link">
-                  +91-8910-887-254
+                <Link to="tel:+918276878233" className="footer-link">
+                  +91-8276-878-233
                 </Link>
               </li>
 
               <li>
-                <Link to="tel:+918584079096" className="footer-link">
-                  +91-8584-079-096
+                <Link to="tel:+918777092925" className="footer-link">
+                  +91-8777-092-925
+                </Link>
+              </li>
+
+              <li>
+                <Link to="tel:+918777491936" className="footer-link">
+                  +91-8777-491936
                 </Link>
               </li>
 
