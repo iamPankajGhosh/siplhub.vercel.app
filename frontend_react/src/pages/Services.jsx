@@ -25,7 +25,7 @@ export default function Services() {
                 <p className="hero-text">
                   In today's dynamic business landscape, effective management is
                   paramount to achieving success and staying competitive. At
-                  Sikharthy Infotect, we are committed to helping you take
+                  Sikharthy Infotech, we are committed to helping you take
                   charge of your business and propel it to new heights through
                   our comprehensive suite of services.
                 </p>
@@ -57,7 +57,7 @@ export default function Services() {
 
               <h2 className="h2 section-title text-center">
                 Managing your business with our{" "}
-                <span className="has-before"> best service</span>
+                <span className="has-before"> best services</span>
               </h2>
 
               <ul className="grid-list">
@@ -381,7 +381,7 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          Industrial Trannig Program
+                          Industrial Training Program
                         </Link>
                       </h3>
 
@@ -579,9 +579,9 @@ export default function Services() {
                       </h3>
 
                       <p className="card-text">
-                        Python strives for a simpler while giving developers a
-                        choice in their coding methodology.The Python is a great
-                        first language, elicited.
+                        C and C++ are powerful programming languages widely used
+                        for system-level programming, embedded systems, and
+                        application development.
                       </p>
                     </div>
                   </div>

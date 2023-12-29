@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="container">
           <div className="footer-top section">
             <div className="footer-brand">
-              <p className="footer-list-title">About Sikhathy Infotech</p>
+              <p className="footer-list-title">About Sikharthy Infotech</p>
 
               <p className="footer-text">
                 Sikharthy Infotech Pvt. Ltd. is a Kolkata-based company offering

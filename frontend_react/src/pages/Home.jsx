@@ -119,7 +119,7 @@ export default function Home() {
 
               <h2 className="h2 section-title text-center">
                 Managing your business with our{" "}
-                <span className="has-before"> best service</span>
+                <span className="has-before"> best services</span>
               </h2>
 
               <ul className="grid-list">
@@ -258,7 +258,7 @@ export default function Home() {
                 </p>
 
                 <h2 className="h2 section-title">
-                  Specialist in avoiding clients' financial{" "}
+                  Specialist in avoiding client's financial{" "}
                   <span className="has-before">challenges</span>
                 </h2>
 

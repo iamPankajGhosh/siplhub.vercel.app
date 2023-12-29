@@ -17,7 +17,7 @@ export default function About() {
               <div className="hero-content">
                 <h1 className="h1 hero-title">
                   Welcome to <span className="has-before">Sikharthy </span>
-                  Infotect Pvt. Ltd.{" "}
+                  Infotech Pvt. Ltd.{" "}
                 </h1>
 
                 <p className="hero-text">
