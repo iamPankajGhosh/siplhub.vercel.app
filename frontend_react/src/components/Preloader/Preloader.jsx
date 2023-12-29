@@ -12,7 +12,7 @@ export default function Preloader() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 1200);
+    }, 800);
   }, []);
 
   return (
