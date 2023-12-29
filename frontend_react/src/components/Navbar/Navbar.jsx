@@ -48,13 +48,26 @@ export default function Navbar() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+  }, [backTopBtnShow]);
+
+  /* handle back to top*/
+
+  const handleBackToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  useEffect(() => {
+    handleBackToTop();
   }, []);
 
   return (
     <>
       <header className={`header ${headerShow ? "active" : ""}`}>
         <div className="container">
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" onClick={handleBackToTop}>
             <img
               src={brandLogo}
               width="150"
@@ -87,7 +100,11 @@ export default function Navbar() {
             <ul className="navbar-list">
               {navbarLink.map((link) => (
                 <li className="navbar-item" onClick={closeNavbar}>
-                  <NavLink to={`/${link}`} className="navbar-link">
+                  <NavLink
+                    to={`/${link}`}
+                    className="navbar-link"
+                    onClick={handleBackToTop}
+                  >
                     {link}
                   </NavLink>
                 </li>
@@ -112,6 +129,15 @@ export default function Navbar() {
             onClick={toggleNavbar}
           ></div>
         </div>
+
+        <button
+          className={`back-top-btn ${backTopBtnShow ? "active" : ""}`}
+          onClick={handleBackToTop}
+        >
+          <span>
+            <ion-icon name="caret-up-outline"></ion-icon>
+          </span>
+        </button>
       </header>
     </>
   );

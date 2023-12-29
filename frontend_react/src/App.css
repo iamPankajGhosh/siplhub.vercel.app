@@ -817,7 +817,6 @@ body {
   font-size: 18px;
   padding: 16px;
   border-radius: var(--radius-8);
-  z-index: 4;
   visibility: hidden;
   opacity: 0;
   transition: var(--transition-1);
