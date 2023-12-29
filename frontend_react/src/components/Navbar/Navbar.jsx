@@ -99,7 +99,7 @@ export default function Navbar() {
 
             <ul className="navbar-list">
               {navbarLink.map((link) => (
-                <li className="navbar-item" onClick={closeNavbar}>
+                <li key={link} className="navbar-item" onClick={closeNavbar}>
                   <NavLink
                     to={`/${link}`}
                     className="navbar-link"

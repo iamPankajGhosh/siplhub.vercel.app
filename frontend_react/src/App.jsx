@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Routes>
           {["/", "/home"].map((path) => (
-            <Route exact path={path} element={<Home />} />
+            <Route key={path} exact path={path} element={<Home />} />
           ))}
 
           <Route exact path="/about" element={<About />} />
