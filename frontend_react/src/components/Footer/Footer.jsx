@@ -81,8 +81,8 @@ export default function Footer() {
               </li>
 
               <li>
-                <Link to="tel:+918777491936" className="footer-link">
-                  +91-8777-491936
+                <Link to="tel:+916291481764" className="footer-link">
+                  +91-6291-481-764
                 </Link>
               </li>
 
