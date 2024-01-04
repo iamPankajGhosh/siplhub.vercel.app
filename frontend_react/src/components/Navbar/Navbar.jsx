@@ -9,7 +9,7 @@ export default function Navbar() {
    * navbar links
    */
   const brandLogo = images.logo;
-  const navbarLink = ["home", "about", "services", "contact"];
+  const navbarLink = ["home", "about", "services", "gallery", "contact"];
 
   /**
    * navbar toggle

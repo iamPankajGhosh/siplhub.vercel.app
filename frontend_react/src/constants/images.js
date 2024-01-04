@@ -7,6 +7,7 @@ import logoDark from "../assets/img/logoDark.png";
 import heroBanner from "../assets/img/hero-banner.png";
 import aboutBanner from "../assets/img/about-banner.png";
 import serviceBanner from "../assets/img/service-banner.png";
+import galleryBanner from "../assets/img/gallery-banner.png";
 
 /**
  * service images
@@ -95,6 +96,10 @@ import courseBanner17 from "../assets/img/course-banner-17.jpeg";
 import courseBanner18 from "../assets/img/course-banner-18.jpeg";
 
 /**
+ * gallery images
+ */
+
+/**
  * footer images
  */
 
@@ -115,6 +120,7 @@ export default {
   heroBanner,
   aboutBanner,
   serviceBanner,
+  galleryBanner,
   serviceIcon1,
   serviceIcon2,
   serviceIcon3,

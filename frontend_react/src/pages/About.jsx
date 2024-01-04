@@ -16,7 +16,7 @@ export default function About() {
             <div className="container">
               <div className="hero-content">
                 <h1 className="h1 hero-title">
-                  Welcome to <span className="has-before">Sikharthy </span>
+                  Welcome to <span className="has-before">Sikharthy </span>{" "}
                   Infotech Pvt. Ltd.{" "}
                 </h1>
 
