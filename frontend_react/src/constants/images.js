@@ -99,6 +99,32 @@ import courseBanner18 from "../assets/img/course-banner-18.jpeg";
  * gallery images
  */
 
+import galleryImage1 from "../assets/img/gallery-image-1.jpg";
+import galleryImage2 from "../assets/img/gallery-image-2.jpg";
+import galleryImage3 from "../assets/img/gallery-image-3.jpg";
+import galleryImage4 from "../assets/img/gallery-image-4.jpg";
+import galleryImage5 from "../assets/img/gallery-image-5.jpg";
+import galleryImage6 from "../assets/img/gallery-image-6.jpg";
+import galleryImage7 from "../assets/img/gallery-image-7.jpg";
+import galleryImage8 from "../assets/img/gallery-image-8.jpg";
+import galleryImage9 from "../assets/img/gallery-image-9.jpg";
+import galleryImage10 from "../assets/img/gallery-image-10.jpg";
+import galleryImage11 from "../assets/img/gallery-image-11.jpg";
+import galleryImage12 from "../assets/img/gallery-image-12.jpg";
+import galleryImage13 from "../assets/img/gallery-image-13.jpg";
+import galleryImage14 from "../assets/img/gallery-image-14.jpg";
+import galleryImage15 from "../assets/img/gallery-image-15.jpg";
+import galleryImage16 from "../assets/img/gallery-image-16.jpg";
+import galleryImage17 from "../assets/img/gallery-image-17.jpg";
+import galleryImage18 from "../assets/img/gallery-image-18.jpg";
+import galleryImage19 from "../assets/img/gallery-image-19.jpg";
+import galleryImage20 from "../assets/img/gallery-image-20.jpg";
+import galleryImage21 from "../assets/img/gallery-image-21.jpg";
+import galleryImage22 from "../assets/img/gallery-image-22.jpg";
+import galleryImage23 from "../assets/img/gallery-image-23.jpg";
+import galleryImage24 from "../assets/img/gallery-image-24.jpg";
+import galleryImage25 from "../assets/img/gallery-image-25.jpg";
+
 /**
  * footer images
  */
@@ -178,4 +204,29 @@ export default {
   instaPost4,
   instaPost5,
   instaPost6,
+  galleryImage1,
+  galleryImage2,
+  galleryImage3,
+  galleryImage4,
+  galleryImage5,
+  galleryImage6,
+  galleryImage7,
+  galleryImage8,
+  galleryImage9,
+  galleryImage10,
+  galleryImage11,
+  galleryImage12,
+  galleryImage13,
+  galleryImage14,
+  galleryImage15,
+  galleryImage16,
+  galleryImage17,
+  galleryImage18,
+  galleryImage19,
+  galleryImage20,
+  galleryImage21,
+  galleryImage22,
+  galleryImage23,
+  galleryImage24,
+  galleryImage25,
 };

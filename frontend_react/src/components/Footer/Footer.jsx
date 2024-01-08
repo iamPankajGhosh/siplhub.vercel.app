@@ -23,7 +23,7 @@ export default function Footer() {
               <ul className="social-list">
                 <li>
                   <Link
-                    to="https://www.youtube.com/@sikharthyinfotech9023"
+                    to="https://www.youtube.com/@sikharthyinfotech"
                     target="_blank"
                     className="social-link"
                   >
