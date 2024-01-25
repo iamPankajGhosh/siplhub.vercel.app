@@ -1,15 +1,12 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 import images from "../constants/images";
-import { Preloader, Navbar, Footer } from "../components";
+import { Preloader } from "../components";
 
 export default function About() {
   return (
     <>
       <Preloader />
-      <Navbar />
-
       <main>
         <article>
           <section className="section hero" id="home" aria-label="hero">
@@ -265,8 +262,6 @@ export default function About() {
           </section>
         </article>
       </main>
-
-      <Footer />
     </>
   );
 }

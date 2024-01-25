@@ -1,8 +1,6 @@
-import React from "react";
 import { Link, useNavigate } from "react-router-dom";
-
-import { Preloader, Navbar, Footer } from "../components";
 import images from "../constants/images";
+import { Preloader } from "../components";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -10,8 +8,6 @@ export default function Home() {
   return (
     <>
       <Preloader />
-      <Navbar />
-
       <main>
         <article>
           {/* #HERO */}
@@ -1324,18 +1320,6 @@ export default function Home() {
           </section>
         </article>
       </main>
-
-      <Footer />
-
-      {/* #BACK TO TOP */}
-
-      {/* <Link
-        to="/"
-        className={`back-top-btn ${backTopBtnShow ? "active" : ""} has-after`}
-        aria-label="back to top"
-      >
-        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
-      </Link> */}
     </>
   );
 }

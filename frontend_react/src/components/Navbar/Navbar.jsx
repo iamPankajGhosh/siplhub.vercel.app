@@ -9,7 +9,28 @@ export default function Navbar() {
    * navbar links
    */
   const brandLogo = images.logo;
-  const navbarLink = ["home", "about", "services", "gallery", "contact"];
+  const navItems = [
+    {
+      title: "Home",
+      slug: "/",
+    },
+    {
+      title: "About",
+      slug: "/about",
+    },
+    {
+      title: "Services",
+      slug: "/services",
+    },
+    {
+      title: "Gallery",
+      slug: "/gallery",
+    },
+    {
+      title: "Contact",
+      slug: "/contact",
+    },
+  ];
 
   /**
    * navbar toggle
@@ -98,10 +119,14 @@ export default function Navbar() {
             </div>
 
             <ul className="navbar-list">
-              {navbarLink.map((link) => (
-                <li key={link} className="navbar-item" onClick={closeNavbar}>
-                  <NavLink to={`/${link}`} className="navbar-link">
-                    {link}
+              {navItems.map((item) => (
+                <li
+                  key={item.title}
+                  className="navbar-item"
+                  onClick={closeNavbar}
+                >
+                  <NavLink to={item.slug} className="navbar-link">
+                    {item.title}
                   </NavLink>
                 </li>
               ))}

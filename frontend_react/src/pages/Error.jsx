@@ -1,5 +1,9 @@
-import React from "react";
-
 export default function Error() {
-  return <div>Error</div>;
+  return (
+    <>
+      <div className="container">
+        <h1>404 Not Found</h1>
+      </div>
+    </>
+  );
 }

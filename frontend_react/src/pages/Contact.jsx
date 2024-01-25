@@ -1,15 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
-
-import { Preloader, Navbar, Footer } from "../components";
-import images from "../constants/images";
+import { Preloader } from "../components";
 
 export default function Contact() {
   return (
     <>
       <Preloader />
-      <Navbar />
-
       <main>
         <article>
           {/* #HERO */}
@@ -85,8 +79,6 @@ export default function Contact() {
           </section>
         </article>
       </main>
-
-      <Footer />
     </>
   );
 }

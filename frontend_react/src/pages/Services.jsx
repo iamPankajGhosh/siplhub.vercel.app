@@ -1,15 +1,12 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-import { Preloader, Navbar, Footer } from "../components";
+import { Preloader } from "../components";
 import images from "../constants/images";
 
 export default function Services() {
   return (
     <>
       <Preloader />
-      <Navbar />
-
       <main>
         <article>
           {/* #HERO */}
@@ -904,8 +901,6 @@ export default function Services() {
           </section>
         </article>
       </main>
-
-      <Footer />
     </>
   );
 }

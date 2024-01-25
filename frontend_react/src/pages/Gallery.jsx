@@ -1,13 +1,11 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import images from "../constants/images";
-import { Footer, Navbar, Preloader } from "../components";
+import { Preloader } from "../components";
 
 function Gallery() {
   return (
     <>
       <Preloader />
-      <Navbar />
       <main>
         <article>
           <section className="section hero" id="home" aria-label="hero">
@@ -545,7 +543,6 @@ function Gallery() {
           </section>
         </article>
       </main>
-      <Footer />
     </>
   );
 }
