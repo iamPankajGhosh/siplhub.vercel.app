@@ -136,6 +136,8 @@ import instaPost4 from "../assets/img/insta-post-4.jpg";
 import instaPost5 from "../assets/img/insta-post-5.jpg";
 import instaPost6 from "../assets/img/insta-post-6.jpg";
 
+import errorBanner from "../assets/img/error-banner.png";
+
 /**
  * export all images
  */
@@ -229,4 +231,5 @@ export default {
   galleryImage23,
   galleryImage24,
   galleryImage25,
+  errorBanner,
 };
