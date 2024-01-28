@@ -24,10 +24,10 @@ export default function Error() {
                   className="hero-btn"
                   aria-label="sikharthy promo"
                   onClick={() => {
-                    navigate("/Watch");
+                    window.history.back();
                   }}
                 >
-                  <ion-icon name="play-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="arrow-back-outline"></ion-icon>
 
                   <span className="span">Go back</span>
                 </button>
