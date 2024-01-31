@@ -125,7 +125,11 @@ export default function Navbar() {
                   className="navbar-item"
                   onClick={closeNavbar}
                 >
-                  <NavLink to={item.slug} className="navbar-link">
+                  <NavLink
+                    to={item.slug}
+                    className="navbar-link"
+                    onClick={handleBackToTop}
+                  >
                     {item.title}
                   </NavLink>
                 </li>
