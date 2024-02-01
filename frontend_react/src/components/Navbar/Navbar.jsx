@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
+import { Button } from "../index";
 
 import images from "../../constants/images";
 import "./Navbar.css";
@@ -145,9 +146,9 @@ export default function Navbar() {
             <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
           </button>
 
-          <Link to="/contact" className="btn btn-primary has-before has-after">
+          <Button goto="/contact" type="primary">
             Let’s Talk 👋
-          </Link>
+          </Button>
 
           <div
             className={`overlay ${isOpen ? "active" : ""}`}

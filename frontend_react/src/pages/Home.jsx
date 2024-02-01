@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import images from "../constants/images";
-import { Preloader } from "../components";
+import { Preloader, Button } from "../components";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -27,12 +27,7 @@ export default function Home() {
                 </p>
 
                 <div className="wrapper">
-                  <Link
-                    to="/contact"
-                    className="btn btn-primary has-before has-after"
-                  >
-                    How It Works
-                  </Link>
+                  <Button goto="/contact">How It Works</Button>
 
                   <button
                     className="hero-btn"
