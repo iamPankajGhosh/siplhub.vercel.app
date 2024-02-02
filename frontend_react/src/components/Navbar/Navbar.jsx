@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
-import { Button } from "../index";
+import { Button, Logo } from "../index";
 
 import images from "../../constants/images";
 import "./Navbar.css";
@@ -89,16 +89,7 @@ export default function Navbar() {
     <>
       <header className={`header ${headerShow ? "active" : ""}`}>
         <div className="container">
-          <Link to="/" className="logo" onClick={handleBackToTop}>
-            <img
-              src={brandLogo}
-              width="150"
-              height="95"
-              loading="lazy"
-              alt="Sikharthy Infotech"
-            />
-          </Link>
-
+          <Logo onClick={handleBackToTop} />
           <nav className={`navbar ${isOpen ? "active" : ""}`}>
             <div className="wrapper">
               <Link to="/" className="logo" onClick={toggleNavbar}>

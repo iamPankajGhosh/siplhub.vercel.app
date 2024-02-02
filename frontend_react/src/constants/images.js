@@ -2,7 +2,7 @@
  * hero images
  */
 
-import logo from "../assets/img/logo.png";
+import logoLight from "../assets/img/logo.png";
 import logoDark from "../assets/img/logoDark.png";
 import heroBanner from "../assets/img/hero-banner.png";
 import aboutBanner from "../assets/img/about-banner.png";
@@ -143,7 +143,7 @@ import errorBanner from "../assets/img/error-banner.png";
  */
 
 export default {
-  logo,
+  logoLight,
   logoDark,
   heroBanner,
   aboutBanner,
