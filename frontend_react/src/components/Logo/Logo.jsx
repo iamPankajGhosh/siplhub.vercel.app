@@ -23,6 +23,6 @@ Logo.ProtoType = {
 };
 
 Logo.defaultProps = {
-  onClick: () => {},
   width: "150px",
+  onClick: () => console.log("clicked"),
 };

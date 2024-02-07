@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
 import images from "../constants/images";
-import { Preloader, Button } from "../components";
+import { Preloader, Button, Form } from "../components";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -706,31 +706,9 @@ export default function Home() {
               <div className="newsletter-content">
                 <p className="section-subtitle has-before">Get every update</p>
 
-                <h2 className="h2 section-title">
-                  Subscribe newsletter get latest updates and deals
-                </h2>
+                <h2 className="h2 section-title">New Student Registration</h2>
 
-                <form action="" className="newsletter-form">
-                  <input
-                    type="email"
-                    name="email_address"
-                    placeholder="Enter your mail"
-                    required
-                    className="contact-field"
-                  />
-
-                  <button
-                    type="submit"
-                    className="btn btn-secondary has-before has-after"
-                  >
-                    <span className="span">Subscribe</span>
-
-                    <ion-icon
-                      name="arrow-forward"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </button>
-                </form>
+                <Form />
               </div>
             </div>
           </section>
