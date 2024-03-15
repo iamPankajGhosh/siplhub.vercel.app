@@ -74,9 +74,9 @@ export default function Services() {
                     </div>
 
                     <h3 className="h3">
-                      <Link to="#" className="card-title">
-                        Web Development
-                      </Link>
+                      <a href="#webDevelopment" className="card-title">
+                        Web & Mobile App Development
+                      </a>
                     </h3>
                   </div>
                 </li>
@@ -97,9 +97,9 @@ export default function Services() {
                     </div>
 
                     <h3 className="h3">
-                      <Link to="#" className="card-title">
-                        Content Writing
-                      </Link>
+                      <a href="#training" className="card-title">
+                        Training
+                      </a>
                     </h3>
                   </div>
                 </li>
@@ -120,32 +120,9 @@ export default function Services() {
                     </div>
 
                     <h3 className="h3">
-                      <Link to="#" className="card-title">
+                      <a href="#digitalMarketing" className="card-title">
                         Digital Marketing
-                      </Link>
-                    </h3>
-                  </div>
-                </li>
-
-                <li>
-                  <div
-                    className="service-card"
-                    style={{ "--color": "52, 98%, 50%" }}
-                  >
-                    <div className="card-icon">
-                      <img
-                        src={images.serviceIcon4}
-                        width="30"
-                        height="30"
-                        loading="lazy"
-                        alt="service icon"
-                      />
-                    </div>
-
-                    <h3 className="h3">
-                      <Link to="#" className="card-title">
-                        Industrial Training
-                      </Link>
+                      </a>
                     </h3>
                   </div>
                 </li>
@@ -153,21 +130,26 @@ export default function Services() {
             </div>
           </section>
 
-          {/* #TRAINING COURSES */}
+          {/* #Development Services*/}
 
-          <section className="section blog" id="blog" aria-label="blog">
+          <section
+            className="section blog"
+            id="webDevelopment"
+            aria-label="blog"
+          >
             <div className="container">
               <p className="section-subtitle has-before text-center">
-                Training Courses
+                Development
               </p>
 
               <h2 className="h2 section-title text-center">
-                Industrial Training <span className="has-before"> Program</span>
+                Web and Mobile App{" "}
+                <span className="has-before"> Developement</span>
               </h2>
 
               <ul className="blog-list">
                 <li>
-                  <div className="blog-card large">
+                  <div className="blog-card">
                     <figure className="card-banner">
                       <img
                         src={images.courseBanner1}
@@ -182,7 +164,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Training
+                          Development
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -197,7 +179,7 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          Developer Internship
+                          Custom Website Development
                         </Link>
                       </h3>
 
@@ -226,7 +208,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Training
+                          Development
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -241,7 +223,7 @@ export default function Services() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          Digital Marketing
+                          E-Commerce Website Development
                         </Link>
                       </h3>
 
@@ -255,7 +237,7 @@ export default function Services() {
                   </div>
                 </li>
 
-                <li>
+                {/* <li>
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
@@ -341,14 +323,14 @@ export default function Services() {
                       </p>
                     </div>
                   </div>
-                </li>
+                </li> */}
               </ul>
 
               <br />
 
               <ul className="blog-list">
                 <li>
-                  <div className="blog-card large">
+                  <div className="blog-card">
                     <figure className="card-banner">
                       <img
                         src={images.courseBanner8}
@@ -363,7 +345,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Training
+                          Development
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -378,7 +360,7 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          Industrial Training Program
+                          Custom Mobile App Developement
                         </Link>
                       </h3>
 
@@ -407,7 +389,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Training
+                          Development
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -422,7 +404,7 @@ export default function Services() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          Mobile App Developement
+                          E-Commerce App Developement
                         </Link>
                       </h3>
 
@@ -435,7 +417,7 @@ export default function Services() {
                   </div>
                 </li>
 
-                <li>
+                {/* <li>
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
@@ -522,33 +504,33 @@ export default function Services() {
                       </p>
                     </div>
                   </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </section>
 
-          {/* #SKILL DEVELOPMENT COURSES */}
+          {/* #Training */}
 
-          <section className="section blog" id="blog" aria-label="blog">
+          <section className="section blog" id="training" aria-label="blog">
             <div className="container">
               <p className="section-subtitle has-before text-center">
-                Skill Development Courses
+                Training
               </p>
 
               <h2 className="h2 section-title text-center">
-                Learn New <span className="has-before"> Technology</span>
+                We Provide <span className="has-before"> Training</span>
               </h2>
 
               <ul className="blog-list">
                 <li>
-                  <div className="blog-card large">
+                  <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner11}
+                        src={images.courseBanner1}
                         width="644"
                         height="363"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="course banner"
                         className="img-cover"
                       />
                     </figure>
@@ -556,7 +538,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Development
+                          Training
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -571,14 +553,14 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          C and C++
+                          Corporate Training
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        C and C++ are powerful programming languages widely used
-                        for system-level programming, embedded systems, and
-                        application development.
+                        For software engineering interns, some must-have skills
+                        to include are programming, time management, logical
+                        analysis, and the ability to contribute and collaborate.
                       </p>
                     </div>
                   </div>
@@ -588,11 +570,11 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner12}
+                        src={images.courseBanner5}
                         width="202"
                         height="162"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="course banner"
                         className="img-cover"
                       />
                     </figure>
@@ -600,7 +582,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Development
+                          Training
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -615,101 +597,15 @@ export default function Services() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          JAVA Programming
+                          Pursing Student Training
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        However, when Java is promoted as the sole programming
-                        language, its flaws and limitations become serious.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                <li>
-                  <div className="blog-card">
-                    <figure className="card-banner">
-                      <img
-                        src={images.courseBanner13}
-                        width="644"
-                        height="363"
-                        loading="lazy"
-                        alt="blog banner"
-                        className="img-cover"
-                      />
-                    </figure>
-
-                    <div className="card-content">
-                      <div className="wrapper">
-                        <Link to="/services" className="tag">
-                          Development
-                        </Link>
-
-                        <Link to="/services" className="publish-date">
-                          <ion-icon
-                            name="time-outline"
-                            aria-hidden="true"
-                          ></ion-icon>
-
-                          <span className="span">August 24, 2023</span>
-                        </Link>
-                      </div>
-
-                      <h3 className="h3">
-                        <Link to="/services" className="card-title">
-                          Python Programming
-                        </Link>
-                      </h3>
-
-                      <p className="card-text">
-                        Python strives for a simpler while giving developers a
-                        choice in their coding methodology.The Python is a great
-                        first language, elicited.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                <li>
-                  <div className="blog-card">
-                    <figure className="card-banner">
-                      <img
-                        src={images.courseBanner14}
-                        width="644"
-                        height="363"
-                        loading="lazy"
-                        alt="blog banner"
-                        className="img-cover"
-                      />
-                    </figure>
-
-                    <div className="card-content">
-                      <div className="wrapper">
-                        <Link to="/services" className="tag">
-                          Development
-                        </Link>
-
-                        <Link to="/services" className="publish-date">
-                          <ion-icon
-                            name="time-outline"
-                            aria-hidden="true"
-                          ></ion-icon>
-
-                          <span className="span">August 24, 2023</span>
-                        </Link>
-                      </div>
-
-                      <h3 className="h3">
-                        <Link to="/services" className="card-title">
-                          PHP Programming
-                        </Link>
-                      </h3>
-
-                      <p className="card-text">
-                        PHP is about as exciting as your toothbrush. You use it
-                        every day, it does the job, it is a simple tool. There
-                        are people who actually like programming.
+                        The goal of digital marketing is to reach potential
+                        customers through the use of content. Content is usually
+                        published on a website and then promoted through social
+                        media, Etc.
                       </p>
                     </div>
                   </div>
@@ -720,14 +616,14 @@ export default function Services() {
 
               <ul className="blog-list">
                 <li>
-                  <div className="blog-card large">
+                  <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner15}
+                        src={images.courseBanner8}
                         width="644"
                         height="363"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="course banner"
                         className="img-cover"
                       />
                     </figure>
@@ -735,7 +631,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Development
+                          Training
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -750,15 +646,78 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          AI & ML
+                          Internship Opportunities
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        Artificial intelligence would be the ultimate version of
-                        Google. I visualize a time when we will be to robots
-                        what dogs are to humans, and I’m rooting for the
-                        machines.
+                        The Industrial Training indicates to a program which
+                        aims to provide a managed good practical training within
+                        a particular time frame.Training improving the skills.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          {/* #Training */}
+
+          <section
+            className="section blog"
+            id="digitalMarketing"
+            aria-label="blog"
+          >
+            <div className="container">
+              <p className="section-subtitle has-before text-center">
+                Digital Marketing
+              </p>
+
+              <h2 className="h2 section-title text-center">
+                We Provide Digital <span className="has-before">Marketing</span>
+              </h2>
+
+              <ul className="blog-list">
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.courseBanner1}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="course banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Digital Marketing
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3>
+                        <Link to="/services" className="card-title">
+                          Social Media Handling
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        For software engineering interns, some must-have skills
+                        to include are programming, time management, logical
+                        analysis, and the ability to contribute and collaborate.
                       </p>
                     </div>
                   </div>
@@ -768,11 +727,11 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner16}
+                        src={images.courseBanner5}
                         width="202"
                         height="162"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="course banner"
                         className="img-cover"
                       />
                     </figure>
@@ -780,7 +739,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Development
+                          Digital Marketing
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -795,28 +754,33 @@ export default function Services() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          JavaScript
+                          SEO Friendly Content Writing
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        Every line of code you write in a language like
-                        JavaScript affects.Happiness plays an important role in
-                        the programming process. Rewarding yourself for a job.
+                        The goal of digital marketing is to reach potential
+                        customers through the use of content. Content is usually
+                        published on a website and then promoted through social
+                        media, Etc.
                       </p>
                     </div>
                   </div>
                 </li>
+              </ul>
 
+              <br />
+
+              <ul className="blog-list">
                 <li>
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner17}
+                        src={images.courseBanner8}
                         width="644"
                         height="363"
                         loading="lazy"
-                        alt="blog banner"
+                        alt="course banner"
                         className="img-cover"
                       />
                     </figure>
@@ -824,7 +788,7 @@ export default function Services() {
                     <div className="card-content">
                       <div className="wrapper">
                         <Link to="/services" className="tag">
-                          Development
+                          Digital Marketing
                         </Link>
 
                         <Link to="/services" className="publish-date">
@@ -837,61 +801,16 @@ export default function Services() {
                         </Link>
                       </div>
 
-                      <h3 className="h3">
+                      <h3>
                         <Link to="/services" className="card-title">
-                          MEAN Stack
+                          SEO
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        A relatively new stack, MEAN stands for MongoDB,
-                        Express. js, AngularJS, and Node.js. MEAN is an
-                        end-to-end JavaScript stack largely used for cloud-ready
-                        applications.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                <li>
-                  <div className="blog-card">
-                    <figure className="card-banner">
-                      <img
-                        src={images.courseBanner18}
-                        width="644"
-                        height="363"
-                        loading="lazy"
-                        alt="blog banner"
-                        className="img-cover"
-                      />
-                    </figure>
-
-                    <div className="card-content">
-                      <div className="wrapper">
-                        <Link to="/services" className="tag">
-                          Development
-                        </Link>
-
-                        <Link to="/services" className="publish-date">
-                          <ion-icon
-                            name="time-outline"
-                            aria-hidden="true"
-                          ></ion-icon>
-
-                          <span className="span">August 24, 2023</span>
-                        </Link>
-                      </div>
-
-                      <h3 className="h3">
-                        <Link to="/services" className="card-title">
-                          MERN Stack
-                        </Link>
-                      </h3>
-
-                      <p className="card-text">
-                        MERN stack is a collection of technologies that enables
-                        faster application development. It is used by developers
-                        worldwide.This is because the four technologies.
+                        The Industrial Training indicates to a program which
+                        aims to provide a managed good practical training within
+                        a particular time frame.Training improving the skills.
                       </p>
                     </div>
                   </div>

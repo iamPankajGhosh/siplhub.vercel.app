@@ -131,7 +131,7 @@ export default function Home() {
 
                     <h3 className="h3">
                       <Link to="#" className="card-title">
-                        Web Development
+                        Web & Mobile App Development
                       </Link>
                     </h3>
                   </div>
