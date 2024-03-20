@@ -19,6 +19,21 @@ import serviceIcon3 from "../assets/img/service-icon-3.png";
 import serviceIcon4 from "../assets/img/service-icon-4.png";
 import serviceIcon5 from "../assets/img/service-icon-5.png";
 
+import CustomWebsiteBanner from "../assets/img/Custom_Website_Design_services_banner.jpg";
+import EcommerceBanner from "../assets/img/Ecommerce_Solutions_services_banner.jpg";
+import MobileAppBanner from "../assets/img/Mobile_App_Development_services_banner.jpg";
+import SupportBanner from "../assets/img/Maintenance__Support_services_banner.jpg";
+
+import CorporateBanner from "../assets/img/Corporate_Training_services_banner.jpg";
+import CustomizedTrainingBanner from "../assets/img/Customized_Training_Solutions_services_banner.jpg";
+import WebCourseBanner from "../assets/img/Web_Development_Courses_services_banner.jpg";
+import InternshipBanner from "../assets/img/Internship_Opportunities_services_banner.jpg";
+
+import SeoAndSemBanner from "../assets/img/seo_and_sem_services_banner.jpg";
+import SocialMediaManagementBanner from "../assets/img/Social_Media_Management_services_banner.jpg";
+import ContentCreationBanner from "../assets/img/Content_Creation_services_banner.jpg";
+import AnalyticsReportingBanner from "../assets/img/Analytics__Reporting_services_banner.jpg";
+
 /**
  * feature images
  */
@@ -154,6 +169,18 @@ export default {
   serviceIcon3,
   serviceIcon4,
   serviceIcon5,
+  CustomWebsiteBanner,
+  EcommerceBanner,
+  MobileAppBanner,
+  SupportBanner,
+  CorporateBanner,
+  CustomizedTrainingBanner,
+  WebCourseBanner,
+  InternshipBanner,
+  SeoAndSemBanner,
+  SocialMediaManagementBanner,
+  ContentCreationBanner,
+  AnalyticsReportingBanner,
   featureBanner,
   projectBanner1,
   projectBanner2,

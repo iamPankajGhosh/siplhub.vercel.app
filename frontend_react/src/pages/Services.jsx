@@ -20,11 +20,12 @@ export default function Services() {
                 </h1>
 
                 <p className="hero-text">
-                  In today's dynamic business landscape, effective management is
-                  paramount to achieving success and staying competitive. At
-                  Sikharthy Infotech, we are committed to helping you take
-                  charge of your business and propel it to new heights through
-                  our comprehensive suite of services.
+                  At Sikharthy Infotect, we empower your business to reach its
+                  fullest potential using cutting-edge technology, innovative
+                  strategies, and comprehensive training programs. Our dedicated
+                  teams specialize in Digital Marketing, Web and Mobile App
+                  Development, and Professional Training Services. Discover how
+                  we can transform your business today.
                 </p>
               </div>
 
@@ -84,11 +85,11 @@ export default function Services() {
                 <li>
                   <div
                     className="service-card"
-                    style={{ "--color": "210, 100%, 53%" }}
+                    style={{ "--color": "52, 98%, 50%" }}
                   >
                     <div className="card-icon">
                       <img
-                        src={images.serviceIcon2}
+                        src={images.serviceIcon4}
                         width="30"
                         height="30"
                         loading="lazy"
@@ -152,7 +153,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner1}
+                        src={images.CustomWebsiteBanner}
                         width="644"
                         height="363"
                         loading="lazy"
@@ -179,14 +180,13 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          Custom Website Development
+                          Custom Website Design
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        For software engineering interns, some must-have skills
-                        to include are programming, time management, logical
-                        analysis, and the ability to contribute and collaborate.
+                        Innovative and responsive designs that captivate and
+                        convert.
                       </p>
                     </div>
                   </div>
@@ -196,7 +196,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner5}
+                        src={images.EcommerceBanner}
                         width="202"
                         height="162"
                         loading="lazy"
@@ -223,107 +223,17 @@ export default function Services() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          E-Commerce Website Development
+                          E-commerce Solutions
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        The goal of digital marketing is to reach potential
-                        customers through the use of content. Content is usually
-                        published on a website and then promoted through social
-                        media, Etc.
+                        Robust online stores with user-friendly shopping
+                        experiences.
                       </p>
                     </div>
                   </div>
                 </li>
-
-                {/* <li>
-                  <div className="blog-card">
-                    <figure className="card-banner">
-                      <img
-                        src={images.courseBanner6}
-                        width="644"
-                        height="363"
-                        loading="lazy"
-                        alt="course banner"
-                        className="img-cover"
-                      />
-                    </figure>
-
-                    <div className="card-content">
-                      <div className="wrapper">
-                        <Link to="/services" className="tag">
-                          Training
-                        </Link>
-
-                        <Link to="/services" className="publish-date">
-                          <ion-icon
-                            name="time-outline"
-                            aria-hidden="true"
-                          ></ion-icon>
-
-                          <span className="span">August 24, 2023</span>
-                        </Link>
-                      </div>
-
-                      <h3 className="h3">
-                        <Link to="/services" className="card-title">
-                          Content Writing Internship
-                        </Link>
-                      </h3>
-
-                      <p className="card-text">
-                        The first and foremost quality of an incredible content
-                        writer is research proficiency. Internet is a hub of
-                        resources and knowledge, but not all of it is accurate.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                <li>
-                  <div className="blog-card">
-                    <figure className="card-banner">
-                      <img
-                        src={images.courseBanner7}
-                        width="644"
-                        height="363"
-                        loading="lazy"
-                        alt="course banner"
-                        className="img-cover"
-                      />
-                    </figure>
-
-                    <div className="card-content">
-                      <div className="wrapper">
-                        <Link to="/services" className="tag">
-                          Training
-                        </Link>
-
-                        <Link to="/services" className="publish-date">
-                          <ion-icon
-                            name="time-outline"
-                            aria-hidden="true"
-                          ></ion-icon>
-
-                          <span className="span">August 24, 2023</span>
-                        </Link>
-                      </div>
-
-                      <h3 className="h3">
-                        <Link to="/services" className="card-title">
-                          Full Stack Developement
-                        </Link>
-                      </h3>
-
-                      <p className="card-text">
-                        A Full Stack Developer works with the Back End or server
-                        side of the application as well as the Front End, or
-                        client side and the end-to-end application development
-                      </p>
-                    </div>
-                  </div>
-                </li> */}
               </ul>
 
               <br />
@@ -333,7 +243,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner8}
+                        src={images.MobileAppBanner}
                         width="644"
                         height="363"
                         loading="lazy"
@@ -360,14 +270,13 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          Custom Mobile App Developement
+                          Mobile App Development
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        The Industrial Training indicates to a program which
-                        aims to provide a managed good practical training within
-                        a particular time frame.Training improving the skills.
+                        Android and iOS apps that offer engaging and interactive
+                        experiences to your customers.
                       </p>
                     </div>
                   </div>
@@ -377,7 +286,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner9}
+                        src={images.SupportBanner}
                         width="202"
                         height="162"
                         loading="lazy"
@@ -404,107 +313,17 @@ export default function Services() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          E-Commerce App Developement
+                          Maintenance & Support
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        Application development is the process of creating a
-                        computer program or a set of programs to perform the
-                        different tasks that a business requires.
+                        Ongoing support to ensure your digital assets remain
+                        up-to-date and secure.
                       </p>
                     </div>
                   </div>
                 </li>
-
-                {/* <li>
-                  <div className="blog-card">
-                    <figure className="card-banner">
-                      <img
-                        src={images.courseBanner3}
-                        width="644"
-                        height="363"
-                        loading="lazy"
-                        alt="course banner"
-                        className="img-cover"
-                      />
-                    </figure>
-
-                    <div className="card-content">
-                      <div className="wrapper">
-                        <Link to="/services" className="tag">
-                          Training
-                        </Link>
-
-                        <Link to="/services" className="publish-date">
-                          <ion-icon
-                            name="time-outline"
-                            aria-hidden="true"
-                          ></ion-icon>
-
-                          <span className="span">August 24, 2023</span>
-                        </Link>
-                      </div>
-
-                      <h3 className="h3">
-                        <Link to="/services" className="card-title">
-                          Customer Support Executive
-                        </Link>
-                      </h3>
-
-                      <p className="card-text">
-                        customer support executives manage a team of customer
-                        support representatives and maintain customer. The team
-                        is adequately trained to promote customer service.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-
-                <li>
-                  <div className="blog-card">
-                    <figure className="card-banner">
-                      <img
-                        src={images.courseBanner10}
-                        width="644"
-                        height="363"
-                        loading="lazy"
-                        alt="course banner"
-                        className="img-cover"
-                      />
-                    </figure>
-
-                    <div className="card-content">
-                      <div className="wrapper">
-                        <Link to="/services" className="tag">
-                          Training
-                        </Link>
-
-                        <Link to="/services" className="publish-date">
-                          <ion-icon
-                            name="time-outline"
-                            aria-hidden="true"
-                          ></ion-icon>
-
-                          <span className="span">August 24, 2023</span>
-                        </Link>
-                      </div>
-
-                      <h3 className="h3">
-                        <Link to="/services" className="card-title">
-                          Management Internship
-                        </Link>
-                      </h3>
-
-                      <p className="card-text">
-                        A Full Stack Python Developer is a software professional
-                        who specializes in developing applications using the
-                        Python programming language.They are responsible for
-                        deploying.
-                      </p>
-                    </div>
-                  </div>
-                </li> */}
               </ul>
             </div>
           </section>
@@ -526,7 +345,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner1}
+                        src={images.CorporateBanner}
                         width="644"
                         height="363"
                         loading="lazy"
@@ -558,9 +377,8 @@ export default function Services() {
                       </h3>
 
                       <p className="card-text">
-                        For software engineering interns, some must-have skills
-                        to include are programming, time management, logical
-                        analysis, and the ability to contribute and collaborate.
+                        Tailor-made programs to boost your team's skills in line
+                        with the latest industry trends.
                       </p>
                     </div>
                   </div>
@@ -570,7 +388,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner5}
+                        src={images.CustomizedTrainingBanner}
                         width="202"
                         height="162"
                         loading="lazy"
@@ -597,15 +415,13 @@ export default function Services() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          Pursing Student Training
+                          Customized Training Solutions
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        The goal of digital marketing is to reach potential
-                        customers through the use of content. Content is usually
-                        published on a website and then promoted through social
-                        media, Etc.
+                        Tailored training programs designed to meet your
+                        specific business needs and objectives.
                       </p>
                     </div>
                   </div>
@@ -619,7 +435,51 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner8}
+                        src={images.WebCourseBanner}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="course banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Training
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3>
+                        <Link to="/services" className="card-title">
+                          Web Development Courses
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        From HTML basics to advanced programming, equip your
+                        team with the coding skills necessary for the digital
+                        age.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.InternshipBanner}
                         width="644"
                         height="363"
                         loading="lazy"
@@ -651,9 +511,9 @@ export default function Services() {
                       </h3>
 
                       <p className="card-text">
-                        The Industrial Training indicates to a program which
-                        aims to provide a managed good practical training within
-                        a particular time frame.Training improving the skills.
+                        Hands-on experience in a real-world environment for
+                        aspiring professionals looking to kickstart their
+                        career.
                       </p>
                     </div>
                   </div>
@@ -662,7 +522,7 @@ export default function Services() {
             </div>
           </section>
 
-          {/* #Training */}
+          {/* #Digital Marketing */}
 
           <section
             className="section blog"
@@ -683,7 +543,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner1}
+                        src={images.SeoAndSemBanner}
                         width="644"
                         height="363"
                         loading="lazy"
@@ -710,14 +570,13 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          Social Media Handling
+                          SEO & SEM
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        For software engineering interns, some must-have skills
-                        to include are programming, time management, logical
-                        analysis, and the ability to contribute and collaborate.
+                        Boost your website's ranking on search engines to
+                        attract high-quality traffic.
                       </p>
                     </div>
                   </div>
@@ -727,7 +586,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner5}
+                        src={images.SocialMediaManagementBanner}
                         width="202"
                         height="162"
                         loading="lazy"
@@ -754,15 +613,13 @@ export default function Services() {
 
                       <h3 className="h3">
                         <Link to="/services" className="card-title">
-                          SEO Friendly Content Writing
+                          Social Media Management
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        The goal of digital marketing is to reach potential
-                        customers through the use of content. Content is usually
-                        published on a website and then promoted through social
-                        media, Etc.
+                        Engage and grow your audience across all major platforms
+                        with captivating content.
                       </p>
                     </div>
                   </div>
@@ -776,7 +633,7 @@ export default function Services() {
                   <div className="blog-card">
                     <figure className="card-banner">
                       <img
-                        src={images.courseBanner8}
+                        src={images.ContentCreationBanner}
                         width="644"
                         height="363"
                         loading="lazy"
@@ -803,14 +660,56 @@ export default function Services() {
 
                       <h3>
                         <Link to="/services" className="card-title">
-                          SEO
+                          Content Creation
                         </Link>
                       </h3>
 
                       <p className="card-text">
-                        The Industrial Training indicates to a program which
-                        aims to provide a managed good practical training within
-                        a particular time frame.Training improving the skills.
+                        From blog posts to videos, we create content that
+                        resonates with your audience.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div className="blog-card">
+                    <figure className="card-banner">
+                      <img
+                        src={images.AnalyticsReportingBanner}
+                        width="644"
+                        height="363"
+                        loading="lazy"
+                        alt="course banner"
+                        className="img-cover"
+                      />
+                    </figure>
+
+                    <div className="card-content">
+                      <div className="wrapper">
+                        <Link to="/services" className="tag">
+                          Digital Marketing
+                        </Link>
+
+                        <Link to="/services" className="publish-date">
+                          <ion-icon
+                            name="time-outline"
+                            aria-hidden="true"
+                          ></ion-icon>
+
+                          <span className="span">August 24, 2023</span>
+                        </Link>
+                      </div>
+
+                      <h3>
+                        <Link to="/services" className="card-title">
+                          Analytics & Reporting
+                        </Link>
+                      </h3>
+
+                      <p className="card-text">
+                        Measure success with comprehensive analytics and
+                        insights to refine your strategy.
                       </p>
                     </div>
                   </div>

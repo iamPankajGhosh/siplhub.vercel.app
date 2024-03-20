@@ -140,11 +140,11 @@ export default function Home() {
                 <li>
                   <div
                     className="service-card"
-                    style={{ "--color": "210, 100%, 53%" }}
+                    style={{ "--color": "52, 98%, 50%" }}
                   >
                     <div className="card-icon">
                       <img
-                        src={images.serviceIcon2}
+                        src={images.serviceIcon4}
                         width="30"
                         height="30"
                         loading="lazy"
@@ -153,8 +153,8 @@ export default function Home() {
                     </div>
 
                     <h3 className="h3">
-                      <Link to="#" className="card-title">
-                        Content Writing
+                      <Link to="/services" className="card-title">
+                        Training
                       </Link>
                     </h3>
                   </div>
@@ -178,29 +178,6 @@ export default function Home() {
                     <h3 className="h3">
                       <Link to="#" className="card-title">
                         Digital Marketing
-                      </Link>
-                    </h3>
-                  </div>
-                </li>
-
-                <li>
-                  <div
-                    className="service-card"
-                    style={{ "--color": "52, 98%, 50%" }}
-                  >
-                    <div className="card-icon">
-                      <img
-                        src={images.serviceIcon4}
-                        width="30"
-                        height="30"
-                        loading="lazy"
-                        alt="service icon"
-                      />
-                    </div>
-
-                    <h3 className="h3">
-                      <Link to="#" className="card-title">
-                        Industrial Training
                       </Link>
                     </h3>
                   </div>
