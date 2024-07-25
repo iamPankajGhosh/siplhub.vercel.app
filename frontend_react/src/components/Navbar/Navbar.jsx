@@ -145,11 +145,9 @@ export default function Navbar() {
           <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
         </button>
 
-        <div className="header-btn-grp">
-          <Button goto="/contact" type="primary">
-            Let’s Talk 👋
-          </Button>
-        </div>
+        <Button goto="/contact" type="primary">
+          Let’s Talk 👋
+        </Button>
 
         <div
           className={`overlay ${isOpen ? "active" : ""}`}
