@@ -125,6 +125,15 @@ export default function Navbar() {
                 </NavLink>
               </li>
             ))}
+            <li key="Apply Now" className="navbar-item" onClick={closeNavbar}>
+              <Link
+                to="https://forms.gle/kPjXzoH9cPiYp1V77"
+                className="navbar-link"
+                onClick={handleBackToTop}
+              >
+                Apply Now 🚀
+              </Link>
+            </li>
           </ul>
         </nav>
 
@@ -137,13 +146,6 @@ export default function Navbar() {
         </button>
 
         <div className="header-btn-grp">
-          <a
-            href="https://forms.gle/kPjXzoH9cPiYp1V77"
-            className={`btn btn-primary has-before has-after`}
-          >
-            Apply Now
-          </a>
-
           <Button goto="/contact" type="primary">
             Let’s Talk 👋
           </Button>
