@@ -86,76 +86,83 @@ export default function Navbar() {
   }, []);
 
   return (
-    <>
-      <header className={`header ${headerShow ? "active" : ""}`}>
-        <div className="container">
-          <Logo onClick={handleBackToTop} />
-          <nav className={`navbar ${isOpen ? "active" : ""}`}>
-            <div className="wrapper">
-              <Link to="/" className="logo" onClick={toggleNavbar}>
-                <img
-                  src={images.logoDark}
-                  width="100"
-                  loading="lazy"
-                  alt="Sikharthy Infotech"
-                />
-              </Link>
+    <header className={`header ${headerShow ? "active" : ""}`}>
+      <div className="container">
+        <Logo onClick={handleBackToTop} />
+        <nav className={`navbar ${isOpen ? "active" : ""}`}>
+          <div className="wrapper">
+            <Link to="/" className="logo" onClick={toggleNavbar}>
+              <img
+                src={images.logoDark}
+                width="100"
+                loading="lazy"
+                alt="Sikharthy Infotech"
+              />
+            </Link>
 
-              <button
-                className="nav-close-btn"
-                aria-label="close menu"
+            <button
+              className="nav-close-btn"
+              aria-label="close menu"
+              onClick={closeNavbar}
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul className="navbar-list">
+            {navItems.map((item) => (
+              <li
+                key={item.title}
+                className="navbar-item"
                 onClick={closeNavbar}
               >
-                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-              </button>
-            </div>
-
-            <ul className="navbar-list">
-              {navItems.map((item) => (
-                <li
-                  key={item.title}
-                  className="navbar-item"
-                  onClick={closeNavbar}
+                <NavLink
+                  to={item.slug}
+                  className="navbar-link"
+                  onClick={handleBackToTop}
                 >
-                  <NavLink
-                    to={item.slug}
-                    className="navbar-link"
-                    onClick={handleBackToTop}
-                  >
-                    {item.title}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
-          </nav>
+                  {item.title}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
-          <button
-            className="nav-open-btn"
-            aria-label="open menu"
-            onClick={toggleNavbar}
+        <button
+          className="nav-open-btn"
+          aria-label="open menu"
+          onClick={toggleNavbar}
+        >
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div className="header-btn-grp">
+          <a
+            href="https://forms.gle/kPjXzoH9cPiYp1V77"
+            className={`btn btn-primary has-before has-after`}
           >
-            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-          </button>
+            Apply Now
+          </a>
 
           <Button goto="/contact" type="primary">
             Let’s Talk 👋
           </Button>
-
-          <div
-            className={`overlay ${isOpen ? "active" : ""}`}
-            onClick={toggleNavbar}
-          ></div>
         </div>
 
-        <button
-          className={`back-top-btn ${backTopBtnShow ? "active" : ""}`}
-          onClick={handleBackToTop}
-        >
-          <span>
-            <ion-icon name="caret-up-outline"></ion-icon>
-          </span>
-        </button>
-      </header>
-    </>
+        <div
+          className={`overlay ${isOpen ? "active" : ""}`}
+          onClick={toggleNavbar}
+        ></div>
+      </div>
+
+      <button
+        className={`back-top-btn ${backTopBtnShow ? "active" : ""}`}
+        onClick={handleBackToTop}
+      >
+        <span>
+          <ion-icon name="caret-up-outline"></ion-icon>
+        </span>
+      </button>
+    </header>
   );
 }

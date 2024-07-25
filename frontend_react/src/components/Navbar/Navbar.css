@@ -37,6 +37,11 @@
   align-items: center;
 }
 
+.header-btn-grp{
+  display: flex;
+  gap: 10px;
+}
+
 .nav-open-btn {
   background-color: var(--white);
   color: var(--eerie-black);
